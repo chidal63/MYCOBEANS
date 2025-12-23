@@ -1,21 +1,53 @@
 <header class="masthead-simple">
 
   <div class="masthead-simple__row">
-    <div class="masthead-simple__title">
-      <a href="{{ '/' | relative_url }}">{{ site.masthead_title | default: site.title }}</a>
+
+    <!-- LEFT: EU LOGO -->
+    <div class="masthead-simple__side">
+      <a href="{{ '/' | relative_url }}">
+        <img
+          src="{{ '/assets/images/logos/eu.png' | relative_url }}"
+          alt="European Union"
+          class="masthead-simple__logo"
+        >
+      </a>
     </div>
 
-    <!-- Hamburger button -->
-    <label for="nav-toggle" class="nav-toggle__button" aria-label="Toggle menu">☰</label>
+    <!-- CENTER: PROJECT TITLE -->
+    <div class="masthead-simple__title">
+      <a href="{{ '/' | relative_url }}">
+        {{ site.masthead_title | default: site.title }}
+      </a>
+    </div>
+
+    <!-- RIGHT: PROJECT LOGO + HAMBURGER -->
+    <div class="masthead-simple__side masthead-simple__side--right">
+      <a href="{{ '/' | relative_url }}">
+        <img
+          src="{{ '/assets/images/logos/mycobeans.png' | relative_url }}"
+          alt="MYCOBEANS"
+          class="masthead-simple__logo"
+        >
+      </a>
+
+      <!-- Hamburger -->
+      <label for="nav-toggle" class="nav-toggle__button" aria-label="Toggle menu">
+        ☰
+      </label>
+    </div>
+
   </div>
 
-  <!-- IMPORTANT: checkbox must be a sibling of nav -->
+  <!-- IMPORTANT: checkbox MUST be immediately before nav -->
   <input type="checkbox" id="nav-toggle" class="nav-toggle" />
 
+  <!-- DROPDOWN MENU -->
   <nav class="masthead-simple__nav" aria-label="Main navigation">
     <ul>
       {% for item in site.data.navigation.main %}
-        <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+        <li>
+          <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+        </li>
       {% endfor %}
     </ul>
   </nav>
