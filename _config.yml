@@ -21,6 +21,8 @@ title_separator: "-"
 twitter_username:
 minimal_mistakes_skin: default
 search: true
+header:
+  nav: false
 
 # Build settings
 markdown: kramdown
@@ -54,19 +56,8 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
-
 footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
-
+  links: []
 defaults:
   # _posts
   - scope:
@@ -78,7 +69,7 @@ defaults:
       read_time: false
       comments: false
       share: false
-      related: true
+      related: false
   # _pages
   - scope:
       path: "_pages"
