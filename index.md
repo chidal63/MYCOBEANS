@@ -2,7 +2,6 @@
 layout: splash
 title: "MYCOBEANS"
 ---
-</div>
 **MYCOBEANS** is an MSCA-funded research project addressing emerging mycotoxin risks in beans and legumes used as alternative plant protein sources, with the aim of strengthening food safety and supply chain resilience under climate change.
 
 ## Why MYCOBEANS?
