@@ -1,15 +1,21 @@
 main:
   - title: "Home"
     url: /
+
+  - title: "Aim & Objectives"
+    url: /aim-objectives/
+
   - title: "The Project"
     url: /the-project/
-  - title: "Objectives"
-    url: /objectives/
+
   - title: "Work Packages"
     url: /work-packages/
+
   - title: "Consortium"
     url: /consortium/
+
+  - title: "News & Events"
+    url: /news/
+
   - title: "Contact"
     url: /contact/
-    - title: "News & Events"
-  url: /news/
