@@ -13,3 +13,5 @@ main:
     url: /consortium/
   - title: "Contact"
     url: /contact/
+    - title: "News & Events"
+  url: /news/
