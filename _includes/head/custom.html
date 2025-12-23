@@ -1,45 +1,43 @@
 <style>
   .masthead-simple {
     border-bottom: 1px solid rgba(0,0,0,.12);
-    padding: 14px 18px;
+    padding: 16px 20px;
   }
 
+  /* GRID instead of flex: true center */
   .masthead-simple__row {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 20px;
+  }
+
+  /* LEFT: logos */
+  .masthead-simple__side--left {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     gap: 16px;
   }
 
-  .masthead-simple__side {
-    display: flex;
-    align-items: center;
-    gap: 14px;
-  }
-
-  .masthead-simple__side--left {
-    min-width: 200px;
-  }
-
+  /* RIGHT: hamburger */
   .masthead-simple__side--right {
-    min-width: 60px;
+    display: flex;
     justify-content: flex-end;
   }
 
-  /* LOGOS: slightly larger */
+  /* LOGOS: bigger but still elegant */
   .masthead-simple__logo {
-    height: 56px;   /* prima era ~44px */
+    height: 64px;   /* was 56px */
     width: auto;
     display: block;
   }
 
-  /* TITLE: more presence */
+  /* TITLE: truly centered on page */
   .masthead-simple__title {
-    flex: 1;
     text-align: center;
     font-weight: 700;
-    font-size: 1.6rem;   /* prima ~1.25rem */
-    letter-spacing: 0.02em;
+    font-size: 1.75rem;   /* was 1.6rem */
+    letter-spacing: 0.03em;
   }
 
   .masthead-simple__title a {
@@ -53,10 +51,11 @@
     left: -9999px;
   }
 
+  /* hamburger */
   .nav-toggle__button {
     cursor: pointer;
     user-select: none;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     padding: 6px 10px;
     border: 1px solid rgba(0,0,0,.25);
     border-radius: 10px;
@@ -66,7 +65,7 @@
   /* dropdown menu */
   .masthead-simple__nav {
     display: none;
-    padding-top: 12px;
+    padding-top: 14px;
   }
 
   .masthead-simple__nav ul {
@@ -75,7 +74,7 @@
     padding: 0;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 12px;
   }
 
   .masthead-simple__nav a {
