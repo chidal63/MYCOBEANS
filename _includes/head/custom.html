@@ -1,105 +1,13 @@
 <style>
-  .masthead-simple {
-    position: relative; /* fondamentale */
-    border-bottom: 1px solid rgba(0,0,0,.12);
-    padding: 16px 20px;
+  /* Funding acknowledgement under header */
+  .funding-bar {
+    padding: 6px 20px 10px 20px;
+    font-size: 0.9rem;
+    color: rgba(0,0,0,0.75);
   }
 
-  .masthead-simple__row {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  /* LEFT: logos */
-  .masthead-simple__side--left {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-  }
-
-  /* RIGHT: hamburger */
-  .masthead-simple__side--right {
-    display: flex;
-    align-items: center;
-  }
-
-  /* LOGOS */
-  .masthead-simple__logo {
-    height: 64px;
-    width: auto;
-    display: block;
-  }
-
-  /* TITLE — TRUE CENTER */
-  .masthead-simple__title {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
-    font-weight: 700;
-    font-size: 1.75rem;
-    letter-spacing: 0.03em;
-    pointer-events: none; /* evita click fantasma */
-  }
-
-  .masthead-simple__title a {
-    text-decoration: none;
-    color: inherit;
-    pointer-events: auto;
-  }
-
-  /* hide checkbox */
-  .nav-toggle {
-    position: absolute;
-    left: -9999px;
-  }
-
-  /* hamburger */
-  .nav-toggle__button {
-    cursor: pointer;
-    user-select: none;
-    font-size: 1.6rem;
-    padding: 6px 10px;
-    border: 1px solid rgba(0,0,0,.25);
-    border-radius: 10px;
-    line-height: 1;
-  }
-
-  /* dropdown menu */
-  .masthead-simple__nav {
-    display: none;
-    padding-top: 14px;
-  }
-
-  .masthead-simple__nav ul {
-    list-style: none;
+  .funding-bar p {
     margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-  }
-
-  .masthead-simple__nav a {
-    text-decoration: none;
-  }
-
-  /* checkbox toggle */
-  #nav-toggle:checked + .masthead-simple__nav {
-    display: block;
+    max-width: 260px;
   }
 </style>
-
-
-/* Funding acknowledgement under header */
-.funding-bar {
-  padding: 6px 20px 10px 20px;
-  font-size: 0.9rem;
-  color: rgba(0,0,0,0.75);
-}
-
-.funding-bar p {
-  margin: 0;
-  max-width: 260px;   /* stessa “zona visiva” dei due loghi */
-}
