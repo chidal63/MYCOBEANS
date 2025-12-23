@@ -21,7 +21,7 @@
       </a>
     </div>
 
-    <!-- CENTER: PROJECT TITLE -->
+    <!-- CENTER: PROJECT TITLE (true centered via CSS absolute) -->
     <div class="masthead-simple__title">
       <a href="{{ '/' | relative_url }}">
         {{ site.masthead_title | default: site.title }}
@@ -30,49 +30,20 @@
 
     <!-- RIGHT: HAMBURGER -->
     <div class="masthead-simple__side masthead-simple__side--right">
-      <label for="nav-toggle" class="nav-toggle__button" aria-label="Toggle menu">
-        ☰
-      </label>
+      <label for="nav-toggle" class="nav-toggle__button" aria-label="Toggle menu">☰</label>
     </div>
 
   </div>
 
+  <!-- IMPORTANT: checkbox immediately before nav -->
   <input type="checkbox" id="nav-toggle" class="nav-toggle" />
 
   <nav class="masthead-simple__nav" aria-label="Main navigation">
     <ul>
       {% for item in site.data.navigation.main %}
-        <li>
-          <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
-        </li>
+        <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
       {% endfor %}
     </ul>
   </nav>
 
 </header>
-
-  <!-- IMPORTANT: checkbox MUST be immediately before nav -->
-  <input type="checkbox" id="nav-toggle" class="nav-toggle" />
-
-  <!-- DROPDOWN MENU -->
-  <nav class="masthead-simple__nav" aria-label="Main navigation">
-    <ul>
-      {% for item in site.data.navigation.main %}
-        <li>
-          <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
-        </li>
-      {% endfor %}
-    </ul>
-  </nav>
-
-<header class="masthead-simple">
-  <!-- TUTTO L’HEADER: loghi, titolo, hamburger -->
-</header>
-
-<div class="funding-bar">
-  <p>
-    This project has received funding from the European Union’s
-    <strong>Marie Skłodowska-Curie Actions</strong>
-    under Grant Agreement No <strong>101131125</strong>.
-  </p>
-</div>
