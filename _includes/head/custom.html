@@ -1,17 +1,18 @@
 <style>
-/* Force navigation items to overflow into the hamburger menu */
-.greedy-nav .visible-links {
-  max-width: 0 !important;
-  overflow: hidden !important;
-  white-space: nowrap !important;
-}
+  .masthead-custom { border-bottom: 1px solid rgba(0,0,0,.1); padding: 14px 16px; }
+  .masthead-custom__inner { display:flex; align-items:center; justify-content:space-between; gap:12px; }
+  .masthead-custom__side { width:60px; min-width:60px; }
+  .masthead-custom__title { flex:1; text-align:center; font-weight:700; font-size:1.25rem; }
+  .masthead-custom__title a { text-decoration:none; color: inherit; }
+  .masthead-custom__controls { width:60px; min-width:60px; display:flex; justify-content:flex-end; }
 
-/* Keep the hamburger and search visible */
-.greedy-nav__toggle {
-  display: block !important;
-}
+  .nav-toggle { position:absolute; left:-9999px; }
+  .nav-toggle__button { cursor:pointer; user-select:none; font-size:1.4rem; padding:6px 10px; border:1px solid rgba(0,0,0,.2); border-radius:8px; }
 
-.search__toggle {
-  display: inline-block !important;
-}
+  .masthead-custom__nav { display:none; padding: 10px 0 0 0; }
+  .masthead-custom__nav ul { list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:8px; }
+  .masthead-custom__nav a { text-decoration:none; }
+
+  /* Toggle open */
+  .nav-toggle:checked ~ .masthead-custom__nav { display:block; }
 </style>
