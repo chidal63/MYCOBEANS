@@ -1,15 +1,14 @@
 <style>
   .masthead-simple {
+    position: relative; /* fondamentale */
     border-bottom: 1px solid rgba(0,0,0,.12);
     padding: 16px 20px;
   }
 
-  /* GRID instead of flex: true center */
   .masthead-simple__row {
-    display: grid;
-    grid-template-columns: auto 1fr auto;
+    display: flex;
     align-items: center;
-    gap: 20px;
+    justify-content: space-between;
   }
 
   /* LEFT: logos */
@@ -22,27 +21,32 @@
   /* RIGHT: hamburger */
   .masthead-simple__side--right {
     display: flex;
-    justify-content: flex-end;
+    align-items: center;
   }
 
-  /* LOGOS: bigger but still elegant */
+  /* LOGOS */
   .masthead-simple__logo {
-    height: 64px;   /* was 56px */
+    height: 64px;
     width: auto;
     display: block;
   }
 
-  /* TITLE: truly centered on page */
+  /* TITLE — TRUE CENTER */
   .masthead-simple__title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
     text-align: center;
     font-weight: 700;
-    font-size: 1.75rem;   /* was 1.6rem */
+    font-size: 1.75rem;
     letter-spacing: 0.03em;
+    pointer-events: none; /* evita click fantasma */
   }
 
   .masthead-simple__title a {
     text-decoration: none;
     color: inherit;
+    pointer-events: auto;
   }
 
   /* hide checkbox */
