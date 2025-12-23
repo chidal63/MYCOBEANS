@@ -2,7 +2,13 @@
 layout: splash
 title: "MYCOBEANS"
 ---
+<div style="max-width: 320px; margin: 10px 0 24px 0; font-size: 0.9rem; color: rgba(0,0,0,0.75);">
 
+This project has received funding from the European Union’s  
+<strong>Marie Skłodowska-Curie Actions</strong>  
+under Grant Agreement No <strong>101131125</strong>.
+
+</div>
 **MYCOBEANS** is an MSCA-funded research project addressing emerging mycotoxin risks in beans and legumes used as alternative plant protein sources, with the aim of strengthening food safety and supply chain resilience under climate change.
 
 ## Why MYCOBEANS?
