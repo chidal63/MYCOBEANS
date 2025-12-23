@@ -2,7 +2,7 @@ main:
   - title: "Home"
     url: /
   - title: "The Project"
-    url: /overview/
+    url: /the-project/
   - title: "Objectives"
     url: /objectives/
   - title: "Work Packages"
