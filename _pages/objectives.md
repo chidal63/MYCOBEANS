@@ -10,7 +10,7 @@ MYCOBEANS aims to strengthen collaboration and excellence across academic and no
 
 ## Research objectives (SMART)
 
-MYCOBEANS delivers its mission through three Specific, Measurable, Attainable, Relevant and Time-Bound (SMART) research objectives:  [oai_citation:1‡SEP-210927078-MYCOBEANS-Part B1.docx](sediment://file_00000000cd3871fca8b9ff355964ac77)
+MYCOBEANS delivers its mission through three Specific, Measurable, Attainable, Relevant and Time-Bound (SMART) research objectives:  
 
 - **RO1 — Advanced interlaboratory analytics:** develop an advanced interlaboratory analytical platform to ensure **high-quality occurrence data** collection and **crop monitoring**.  
 - **RO2 — Integrated mitigation design:** integrate **computational**, **biotechnological** and **toxicological** methodologies to design innovative **bio-based mitigation strategies**.  
