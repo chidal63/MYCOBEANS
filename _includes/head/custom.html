@@ -1,39 +1,45 @@
 <style>
   .masthead-simple {
     border-bottom: 1px solid rgba(0,0,0,.12);
-    padding: 12px 16px;
+    padding: 14px 18px;
   }
 
   .masthead-simple__row {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 12px;
+    gap: 16px;
   }
 
   .masthead-simple__side {
-    width: 140px;
-    min-width: 140px;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 14px;
+  }
+
+  .masthead-simple__side--left {
+    min-width: 200px;
   }
 
   .masthead-simple__side--right {
+    min-width: 60px;
     justify-content: flex-end;
   }
 
+  /* LOGOS: slightly larger */
   .masthead-simple__logo {
-    height: 44px;
+    height: 56px;   /* prima era ~44px */
     width: auto;
     display: block;
   }
 
+  /* TITLE: more presence */
   .masthead-simple__title {
     flex: 1;
     text-align: center;
     font-weight: 700;
-    font-size: 1.25rem;
+    font-size: 1.6rem;   /* prima ~1.25rem */
+    letter-spacing: 0.02em;
   }
 
   .masthead-simple__title a {
@@ -50,7 +56,7 @@
   .nav-toggle__button {
     cursor: pointer;
     user-select: none;
-    font-size: 1.35rem;
+    font-size: 1.5rem;
     padding: 6px 10px;
     border: 1px solid rgba(0,0,0,.25);
     border-radius: 10px;
@@ -60,7 +66,7 @@
   /* dropdown menu */
   .masthead-simple__nav {
     display: none;
-    padding-top: 10px;
+    padding-top: 12px;
   }
 
   .masthead-simple__nav ul {
@@ -69,7 +75,7 @@
     padding: 0;
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 10px;
   }
 
   .masthead-simple__nav a {
