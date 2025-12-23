@@ -1,4 +1,0 @@
-/* Hide the horizontal navigation (keep the hamburger / toggle menu) */
-.masthead__menu {
-  display: none !important;
-}
