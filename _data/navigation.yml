@@ -3,9 +3,13 @@ main:
     url: /
   - title: "The Project"
     url: /overview/
-  - title: "News"
-    url: /news/
+  - title: "Objectives"
+    url: /objectives/
+  - title: "Work Packages"
+    url: /work-packages/
+  - title: "Deliverables"
+    url: /deliverables/
   - title: "Consortium"
-    url: /team/
+    url: /consortium/
   - title: "Contact"
     url: /contact/
