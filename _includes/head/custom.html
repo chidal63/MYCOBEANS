@@ -1,13 +1,87 @@
 <style>
-  /* Funding acknowledgement under header */
-  .funding-bar {
-    padding: 6px 20px 10px 20px;
-    font-size: 0.9rem;
-    color: rgba(0,0,0,0.75);
+  .masthead-simple {
+    position: relative;
+    border-bottom: 1px solid rgba(0,0,0,.12);
+    padding: 16px 20px;
   }
 
-  .funding-bar p {
+  .masthead-simple__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .masthead-simple__side--left {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .masthead-simple__side--right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    min-width: 60px;
+  }
+
+  .masthead-simple__logo {
+    height: 64px;
+    width: auto;
+    display: block;
+  }
+
+  /* TRUE CENTER */
+  .masthead-simple__title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.75rem;
+    letter-spacing: 0.03em;
+    pointer-events: none;
+  }
+
+  .masthead-simple__title a {
+    text-decoration: none;
+    color: inherit;
+    pointer-events: auto;
+  }
+
+  .nav-toggle {
+    position: absolute;
+    left: -9999px;
+  }
+
+  .nav-toggle__button {
+    cursor: pointer;
+    user-select: none;
+    font-size: 1.6rem;
+    padding: 6px 10px;
+    border: 1px solid rgba(0,0,0,.25);
+    border-radius: 10px;
+    line-height: 1;
+  }
+
+  .masthead-simple__nav {
+    display: none;
+    padding-top: 14px;
+  }
+
+  .masthead-simple__nav ul {
+    list-style: none;
     margin: 0;
-    max-width: 260px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .masthead-simple__nav a {
+    text-decoration: none;
+  }
+
+  #nav-toggle:checked + .masthead-simple__nav {
+    display: block;
   }
 </style>
