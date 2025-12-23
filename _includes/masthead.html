@@ -2,12 +2,20 @@
 
   <div class="masthead-simple__row">
 
-    <!-- LEFT: EU LOGO -->
-    <div class="masthead-simple__side">
+    <!-- LEFT: EU + PROJECT LOGOS -->
+    <div class="masthead-simple__side masthead-simple__side--left">
       <a href="{{ '/' | relative_url }}">
         <img
           src="{{ '/assets/images/logos/eu.png' | relative_url }}"
           alt="European Union"
+          class="masthead-simple__logo"
+        >
+      </a>
+
+      <a href="{{ '/' | relative_url }}">
+        <img
+          src="{{ '/assets/images/logos/mycobeans.png' | relative_url }}"
+          alt="MYCOBEANS"
           class="masthead-simple__logo"
         >
       </a>
@@ -20,23 +28,28 @@
       </a>
     </div>
 
-    <!-- RIGHT: PROJECT LOGO + HAMBURGER -->
+    <!-- RIGHT: HAMBURGER -->
     <div class="masthead-simple__side masthead-simple__side--right">
-      <a href="{{ '/' | relative_url }}">
-        <img
-          src="{{ '/assets/images/logos/mycobeans.png' | relative_url }}"
-          alt="MYCOBEANS"
-          class="masthead-simple__logo"
-        >
-      </a>
-
-      <!-- Hamburger -->
       <label for="nav-toggle" class="nav-toggle__button" aria-label="Toggle menu">
         ☰
       </label>
     </div>
 
   </div>
+
+  <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+
+  <nav class="masthead-simple__nav" aria-label="Main navigation">
+    <ul>
+      {% for item in site.data.navigation.main %}
+        <li>
+          <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
+
+</header>
 
   <!-- IMPORTANT: checkbox MUST be immediately before nav -->
   <input type="checkbox" id="nav-toggle" class="nav-toggle" />
