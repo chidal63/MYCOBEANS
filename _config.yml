@@ -16,6 +16,8 @@
 title: "MYCOBEANS"
 name: "MYCOBEANS"
 description: "MSCA-SE funded project on emerging mycotoxin risks in beans and legumes."
+masthead_title: "MYCOBEANS"
+title_separator: "-"
 twitter_username: username
 github_username: username
 minimal_mistakes_skin: default
