@@ -1,0 +1,28 @@
+<div class="masthead-custom">
+  <div class="masthead-custom__inner">
+
+    <!-- Left slot (EU logo later) -->
+    <div class="masthead-custom__side" id="masthead-left"></div>
+
+    <!-- Title -->
+    <div class="masthead-custom__title">
+      <a href="{{ '/' | relative_url }}">{{ site.masthead_title | default: site.title }}</a>
+    </div>
+
+    <!-- Right slot: hamburger -->
+    <div class="masthead-custom__controls">
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle__button" aria-label="Toggle menu">☰</label>
+    </div>
+
+  </div>
+
+  <!-- Dropdown menu -->
+  <nav class="masthead-custom__nav" aria-label="Main navigation">
+    <ul>
+      {% for item in site.data.navigation.main %}
+        <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </nav>
+</div>
