@@ -1,33 +1,16 @@
 <header class="masthead-simple">
+
   <div class="masthead-simple__row">
-
-    <!-- Left: EU logo (we’ll add the img later) -->
-    <div class="masthead-simple__side">
-      {% if site.header_left_logo %}
-        <a href="{{ '/' | relative_url }}">
-          <img src="{{ site.header_left_logo | relative_url }}" alt="European Union" class="masthead-simple__logo">
-        </a>
-      {% endif %}
-    </div>
-
-    <!-- Center: Title -->
     <div class="masthead-simple__title">
       <a href="{{ '/' | relative_url }}">{{ site.masthead_title | default: site.title }}</a>
     </div>
 
-    <!-- Right: project logo + hamburger -->
-    <div class="masthead-simple__side masthead-simple__side--right">
-      {% if site.header_right_logo %}
-        <a href="{{ '/' | relative_url }}">
-          <img src="{{ site.header_right_logo | relative_url }}" alt="MYCOBEANS" class="masthead-simple__logo">
-        </a>
-      {% endif %}
-
-      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
-      <label for="nav-toggle" class="nav-toggle__button" aria-label="Toggle menu">☰</label>
-    </div>
-
+    <!-- Hamburger button -->
+    <label for="nav-toggle" class="nav-toggle__button" aria-label="Toggle menu">☰</label>
   </div>
+
+  <!-- IMPORTANT: checkbox must be a sibling of nav -->
+  <input type="checkbox" id="nav-toggle" class="nav-toggle" />
 
   <nav class="masthead-simple__nav" aria-label="Main navigation">
     <ul>
@@ -36,4 +19,5 @@
       {% endfor %}
     </ul>
   </nav>
+
 </header>
