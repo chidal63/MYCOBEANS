@@ -105,96 +105,80 @@
   }
 
 
-  /* =========================
-     FUNDERS FOOTER (EU / MSCA / UKRI)
-     ========================= */
+/* =========================
+   FUNDERS FOOTER (EU / MSCA / UKRI)
+   ========================= */
 
-  .funder-footer {
-    border-top: 1px solid rgba(0,0,0,.12);
-    padding: 18px 20px;
-    font-size: 0.76rem;
-    line-height: 1.32;
-    color: rgba(0,0,0,0.70);
-  }
+.funder-footer {
+  border-top: 1px solid rgba(0,0,0,.12);
+  padding: 18px 20px;
+  font-size: 0.70rem;          /* testo più piccolo */
+  line-height: 1.28;
+  color: rgba(0,0,0,0.65);
+}
 
+.funder-footer__grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  gap: 18px 26px;
+  align-items: start;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.funder-footer__block {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  min-height: 88px;            /* allineamento ottico */
+}
+
+/* LOGOS: più presenti, ma equilibrati */
+.funder-footer__logo {
+  display: block;
+  width: auto;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.funder-footer__logo--eu   { height: 72px; }  /* EU dominante */
+.funder-footer__logo--msca { height: 42px; }  /* MSCA più visibile */
+.funder-footer__logo--ukri { height: 46px; }  /* UKRI equilibrato */
+
+/* TESTO: stesso peso ovunque, niente bold */
+.funder-footer__text,
+.funder-footer__text strong {
+  font-weight: 400;            /* niente grassetto */
+  color: rgba(0,0,0,0.65);
+}
+
+.funder-footer__text--fixed {
+  max-width: 260px;
+  margin: 0;
+}
+
+/* DISCLAIMER: ancora più discreto */
+.funder-footer__disclaimer {
+  max-width: 1200px;
+  margin: 14px auto 0 auto;
+  padding-top: 10px;
+  border-top: 1px solid rgba(0,0,0,.08);
+  font-size: 0.66rem;
+  line-height: 1.25;
+  color: rgba(0,0,0,0.55);
+}
+
+.funder-footer__disclaimer p {
+  margin: 0;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
   .funder-footer__grid {
-    display: grid;
-    grid-template-columns: 1fr 2fr 2fr;
-    gap: 16px 22px;
-    align-items: start;
-    max-width: 1200px;
-    margin: 0 auto;
+    grid-template-columns: 1fr;
   }
 
-  .funder-footer__block {
-    display: flex;
-    gap: 12px;
-    align-items: flex-start;
-    min-height: 82px;           /* optical alignment across blocks */
-  }
-
-  .funder-footer__block--msca {
-    justify-content: flex-start;
-  }
-
-  .funder-footer__block--eu {
-    justify-content: flex-start;
-  }
-
-  .funder-footer__block--ukri {
-    justify-content: flex-end;
-  }
-
-  .funder-footer__logo {
-    display: block;
-    width: auto;
-    flex-shrink: 0;
-    margin-top: 2px;            /* micro optical correction */
-  }
-
-  /* Optical balance (EU bigger, MSCA smaller) */
-  .funder-footer__logo--eu   { height: 66px; }
-  .funder-footer__logo--msca { height: 34px; }
-  .funder-footer__logo--ukri { height: 40px; }
-
-  .funder-footer__text {
-    margin: 0;
-  }
-
-  /* Fixed text width: makes EU/UKRI blocks visually balanced */
   .funder-footer__text--fixed {
-    max-width: 270px;
-    margin-top: 2px;
-  }
-
-  .funder-footer__text strong {
-    font-weight: 700;
-    color: rgba(0,0,0,0.82);
-  }
-
-  .funder-footer__disclaimer {
-    max-width: 1200px;
-    margin: 12px auto 0 auto;
-    padding-top: 10px;
-    border-top: 1px solid rgba(0,0,0,.08);
-    font-size: 0.72rem;
-    color: rgba(0,0,0,0.60);
-  }
-
-  .funder-footer__disclaimer p {
-    margin: 0;
-  }
-
-  /* Responsive: stack cleanly */
-  @media (max-width: 900px) {
-    .funder-footer__grid {
-      grid-template-columns: 1fr;
-    }
-    .funder-footer__block--ukri {
-      justify-content: flex-start;
-    }
-    .funder-footer__text--fixed {
-      max-width: 520px;
-    }
+    max-width: 520px;
   }
 </style>
