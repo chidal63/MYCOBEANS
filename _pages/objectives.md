@@ -25,3 +25,11 @@ RO2 aims to turn data into solutions. By bringing together computational tools, 
 
 **Objective 3 – Building skills and connections across sectors**
 The third objective is dedicated to people. MYCOBEANS provides intersectoral training opportunities for early- and middle-career scientists, enabling them to work across disciplines and between academia and industry. By fostering mobility and shared expertise, the project helps build a new generation of researchers equipped to address complex food safety challenges.
+
+## Key facts
+
+{% include figure
+   image_path="assets/images/figures/key_facts.png"
+   alt="Key facts about MYCOBEANS"
+   caption="Key facts of the MYCOBEANS project." %}
+
