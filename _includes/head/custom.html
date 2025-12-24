@@ -6,51 +6,50 @@
   .masthead-simple {
     position: relative;
     border-bottom: 1px solid rgba(0,0,0,.12);
-    padding: 16px 20px;
+    padding: 14px 20px;
   }
 
   .masthead-simple__row {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 12px;
   }
 
+  /* LEFT: spacer only (keeps the center truly centered) */
   .masthead-simple__side--left {
-    display: flex;
-    align-items: center;
-    gap: 16px;
+    width: 140px;              /* balance the right side width */
+    min-width: 140px;
   }
 
-  .masthead-simple__side--right {
+  /* CENTER: logo-as-title */
+  .masthead-simple__center {
+    flex: 1;
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: flex-end;
-    min-width: 60px;
   }
 
-  .masthead-simple__logo {
-    height: 64px;
+  .masthead-simple__brand-logo {
+    height: 58px;
     width: auto;
     display: block;
   }
 
-  /* TRUE CENTER title (centered to viewport, not to flex gap) */
-  .masthead-simple__title {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
-    font-weight: 700;
-    font-size: 1.75rem;
-    letter-spacing: 0.03em;
-    pointer-events: none;
-    white-space: nowrap;
+  /* RIGHT: EU logo + hamburger */
+  .masthead-simple__side--right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 12px;
+    width: 240px;
+    min-width: 240px;
   }
 
-  .masthead-simple__title a {
-    text-decoration: none;
-    color: inherit;
-    pointer-events: auto;
+  .masthead-simple__logo--eu {
+    height: 54px;
+    width: auto;
+    display: block;
   }
 
   /* Toggle menu (checkbox hack) */
@@ -63,15 +62,25 @@
     cursor: pointer;
     user-select: none;
     font-size: 1.6rem;
-    padding: 6px 10px;
+    padding: 10px 14px;        /* bigger hit area = more sensitive */
     border: 1px solid rgba(0,0,0,.25);
     border-radius: 10px;
     line-height: 1;
   }
 
+  /* True dropdown (overlay) */
   .masthead-simple__nav {
     display: none;
-    padding-top: 14px;
+    position: absolute;
+    right: 20px;
+    top: calc(100% + 10px);
+    background: #fff;
+    border: 1px solid rgba(0,0,0,.12);
+    border-radius: 12px;
+    padding: 12px 14px;
+    box-shadow: 0 12px 30px rgba(0,0,0,.12);
+    z-index: 999;
+    min-width: 220px;
   }
 
   .masthead-simple__nav ul {
@@ -80,7 +89,7 @@
     padding: 0;
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 10px;
   }
 
   .masthead-simple__nav a {
@@ -91,16 +100,30 @@
     display: block;
   }
 
-  /* Small screens: avoid title overlap */
+  /* Small screens */
   @media (max-width: 520px) {
-    .masthead-simple__title {
-      font-size: 1.35rem;
-      max-width: 60%;
-      overflow: hidden;
-      text-overflow: ellipsis;
+    .masthead-simple__side--left {
+      width: 70px;
+      min-width: 70px;
     }
-    .masthead-simple__logo {
-      height: 54px;
+
+    .masthead-simple__side--right {
+      width: 200px;
+      min-width: 200px;
+      gap: 10px;
+    }
+
+    .masthead-simple__brand-logo {
+      height: 50px;
+    }
+
+    .masthead-simple__logo--eu {
+      height: 46px;
+    }
+
+    .masthead-simple__nav {
+      right: 12px;
+      min-width: 200px;
     }
   }
 
@@ -112,7 +135,7 @@
   .funder-footer {
     border-top: 1px solid rgba(0,0,0,.12);
     padding: 18px 20px;
-    font-size: 0.70rem;     /* smaller than body text */
+    font-size: 0.70rem;
     line-height: 1.28;
     color: rgba(0,0,0,0.65);
   }
@@ -126,16 +149,12 @@
     margin: 0 auto;
   }
 
-/* Centered optical alignment for heterogeneous logos */
-.funder-footer__block {
-  display: flex;
-  gap: 14px;
-  align-items: center;     /* CENTRATO */
-  min-height: 88px;
-}
-
-.funder-footer__logo {
-  margin: 0;               /* niente micro-offset */
+  /* Centered optical alignment for heterogeneous logos */
+  .funder-footer__block {
+    display: flex;
+    gap: 14px;
+    align-items: center;       /* centered */
+    min-height: 88px;
   }
 
   .funder-footer__block--msca { justify-content: flex-start; }
@@ -146,16 +165,13 @@
     display: block;
     width: auto;
     flex-shrink: 0;
+    margin: 0;
   }
 
-  /* Logo sizes (EU slightly dominant; MSCA smaller; UKRI balanced) */
+  /* Logo sizes (as you currently like them) */
   .funder-footer__logo--eu   { height: 72px; }
   .funder-footer__logo--msca { height: 42px; }
   .funder-footer__logo--ukri { height: 46px; }
-
-  /* Micro optical corrections (only for baseline harmony) */
-  .funder-footer__logo--msca { margin-bottom: 2px; }
-  .funder-footer__logo--ukri { margin-bottom: 1px; }
 
   /* Text: consistent weight (no bold, including <strong>) */
   .funder-footer__text,
@@ -164,17 +180,14 @@
     color: rgba(0,0,0,0.65);
   }
 
-  .funder-footer__text {
-    margin: 0;
-  }
+  .funder-footer__text { margin: 0; }
 
-  /* Fixed text width for balanced blocks */
   .funder-footer__text--fixed {
     max-width: 260px;
     margin: 0;
   }
 
-  /* Justify funder statements + disclaimer (with hyphenation to avoid rivers) */
+  /* Justify funder statements + disclaimer (with hyphenation) */
   .funder-footer__text--fixed,
   .funder-footer__disclaimer p {
     text-align: justify;
@@ -191,9 +204,7 @@
     color: rgba(0,0,0,0.55);
   }
 
-  .funder-footer__disclaimer p {
-    margin: 0;
-  }
+  .funder-footer__disclaimer p { margin: 0; }
 
   /* Responsive: stack blocks cleanly */
   @media (max-width: 900px) {
