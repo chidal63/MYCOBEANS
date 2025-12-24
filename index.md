@@ -11,10 +11,10 @@ Climate change and changing agricultural practices are reshaping the risk profil
 ## What the project does
 
 MYCOBEANS works across the food chain to:
-	•	investigate the occurrence of emerging mycotoxins in beans and legume-based ingredients;
-	•	strengthen analytical and diagnostic approaches for reliable mycotoxin detection and monitoring;
-	•	improve understanding of toxicological risks under realistic exposure scenarios;
-	•	develop and assess biotechnological mitigation strategies applicable to plant-based protein systems.
+	- investigate the occurrence of emerging mycotoxins in beans and legume-based ingredients;
+	- strengthen analytical and diagnostic approaches for reliable mycotoxin detection and monitoring;
+	- improve understanding of toxicological risks under realistic exposure scenarios;
+	- develop and assess biotechnological mitigation strategies applicable to plant-based protein systems.
 
 ## A global research alliance
 
