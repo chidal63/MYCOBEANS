@@ -5,6 +5,11 @@ title: "MYCOBEANS"
 
 **MYCOBEANS** is a 48-month MSCA-funded research and training project addressing emerging mycotoxin risks in beans and legumes used as alternative plant protein sources. By combining scientific excellence with intersectoral collaboration, the project aims to strengthen food safety and supply-chain resilience in the context of climate change and rapidly evolving dietary patterns.
 
+{% include figure
+   image_path="/assets/images/hero/mung_bean.jpeg"
+   alt="Beans and legumes used as plant protein sources"
+   class="full" %}
+
 ## Why MYCOBEANS?
 
 Climate change and changing agricultural practices are reshaping the risk profile of food contaminants. At the same time, beans and legumes are becoming central ingredients in sustainable, plant-based diets. In this evolving landscape, mycotoxins in legumes represent an emerging and still underexplored challenge, with potential implications for food safety, consumer trust, and the resilience of protein supply chains.
