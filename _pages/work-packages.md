@@ -1,9 +1,3 @@
-<div class="wp-sidebar-left">
-  {% include figure
-     image_path="assets/images/figures/Info.png"
-     alt="Work packages overview"
-     caption="Work packages at a glance." %}
-</div>
 ---
 title: "Work Packages"
 permalink: /work-packages/
@@ -18,6 +12,12 @@ sidebar:
   image_alt: "Work packages overview"
   text: "Summary of the MYCOBEANS work packages and knowledge exchange structure."
 ---
+<div class="wp-sidebar-left">
+  {% include figure
+     image_path="assets/images/figures/Info.png"
+     alt="Work packages overview"
+     caption="Work packages at a glance." %}
+</div>
 
 MYCOBEANS is built around five closely connected Work Packages (WPs) that work together to turn scientific knowledge into real-world impact. Each WP plays a distinct role, guiding the project from understanding food safety challenges to developing practical solutions and ensuring that results reach the people who need them. 
 
