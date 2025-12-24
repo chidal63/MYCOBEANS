@@ -126,12 +126,16 @@
     margin: 0 auto;
   }
 
-  /* Optical baseline alignment across logo blocks */
-  .funder-footer__block {
-    display: flex;
-    gap: 14px;
-    align-items: flex-end;     /* KEY: same baseline */
-    min-height: 88px;
+/* Centered optical alignment for heterogeneous logos */
+.funder-footer__block {
+  display: flex;
+  gap: 14px;
+  align-items: center;     /* CENTRATO */
+  min-height: 88px;
+}
+
+.funder-footer__logo {
+  margin: 0;               /* niente micro-offset */
   }
 
   .funder-footer__block--msca { justify-content: flex-start; }
