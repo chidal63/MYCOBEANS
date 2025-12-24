@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Home"
+title: "MYCOBEANS - Exploring emerging mycotoxins risk in beans: a global alliance for climate change resilience"
 permalink: /
 classes:
   - wide
