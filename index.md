@@ -2,7 +2,12 @@
 layout: single
 title: "Home"
 permalink: /
-classes: landing
+classes:
+  - wide
+  - landing
+author_profile: false
+sidebar: false
+toc: false
 ---
 
 **MYCOBEANS** is a 48-month MSCA-funded research and training project addressing emerging mycotoxin risks in beans and legumes used as alternative plant protein sources. By combining scientific excellence with intersectoral collaboration, the project aims to strengthen food safety and supply-chain resilience in the context of climate change and rapidly evolving dietary patterns.
