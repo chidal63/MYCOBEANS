@@ -1,4 +1,8 @@
 <style>
+  /* =========================
+     MASTHEAD (Header)
+     ========================= */
+
   .masthead-simple {
     position: relative;
     border-bottom: 1px solid rgba(0,0,0,.12);
@@ -30,7 +34,7 @@
     display: block;
   }
 
-  /* TRUE CENTER */
+  /* TRUE CENTER title (centered to viewport, not to flex gap) */
   .masthead-simple__title {
     position: absolute;
     left: 50%;
@@ -40,6 +44,7 @@
     font-size: 1.75rem;
     letter-spacing: 0.03em;
     pointer-events: none;
+    white-space: nowrap;
   }
 
   .masthead-simple__title a {
@@ -48,6 +53,7 @@
     pointer-events: auto;
   }
 
+  /* Toggle menu (checkbox hack) */
   .nav-toggle {
     position: absolute;
     left: -9999px;
@@ -85,95 +91,110 @@
     display: block;
   }
 
-  .project-footer {
-  border-top: 1px solid rgba(0,0,0,.12);
-  padding: 18px 20px;
-  font-size: 0.78rem;
-  line-height: 1.35;
-  color: rgba(0,0,0,0.7);
-}
-
-.project-footer__inner {
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
-.project-footer p {
-  margin: 0 0 8px 0;
-}
-/* --- Funding footer (EU / MSCA / UKRI) --- */
-.funder-footer {
-  border-top: 1px solid rgba(0,0,0,.12);
-  padding: 18px 20px;
-  font-size: 0.76rem;          /* più piccolo */
-  line-height: 1.32;
-  color: rgba(0,0,0,0.7);
-}
-
-.funder-footer__grid {
-  display: grid;
-  grid-template-columns: 1fr 2fr 2fr;
-  gap: 16px 22px;
-  align-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.funder-footer__block {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  min-height: 64px;
-}
-
-.funder-footer__block--msca {
-  justify-content: flex-start;
-}
-
-.funder-footer__block--eu,
-.funder-footer__block--ukri {
-  align-items: flex-start;   /* testo parte dall’alto, non dal centro */
-}
-
-.funder-footer__logo {
-  display: block;
-  width: auto;
-  flex-shrink: 0;
-}
-
-.funder-footer__logo--msca { height: 42px; }
-.funder-footer__logo--eu   { height: 52px; }
-.funder-footer__logo--ukri { height: 38px; }
-
-/* TEXT BLOCK: fixed visual width */
-.funder-footer__text--fixed {
-  max-width: 260px;           /* CHIAVE: stessa larghezza */
-  margin: 0;
-}
-
-.funder-footer__text strong {
-  font-weight: 700;
-  color: rgba(0,0,0,0.82);
-}
-
-/* Disclaimer */
-.funder-footer__disclaimer {
-  max-width: 1200px;
-  margin: 12px auto 0 auto;
-  padding-top: 10px;
-  border-top: 1px solid rgba(0,0,0,.08);
-  font-size: 0.72rem;
-  color: rgba(0,0,0,0.6);
-}
-
-.funder-footer__disclaimer p {
-  margin: 0;
-}
-
-/* Responsive */
-@media (max-width: 900px) {
-  .funder-footer__grid {
-    grid-template-columns: 1fr;
+  /* Small screens: avoid title overlap */
+  @media (max-width: 520px) {
+    .masthead-simple__title {
+      font-size: 1.35rem;
+      max-width: 60%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .masthead-simple__logo {
+      height: 54px;
+    }
   }
-}
+
+
+  /* =========================
+     FUNDERS FOOTER (EU / MSCA / UKRI)
+     ========================= */
+
+  .funder-footer {
+    border-top: 1px solid rgba(0,0,0,.12);
+    padding: 18px 20px;
+    font-size: 0.76rem;
+    line-height: 1.32;
+    color: rgba(0,0,0,0.70);
+  }
+
+  .funder-footer__grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    gap: 16px 22px;
+    align-items: start;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .funder-footer__block {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+    min-height: 82px;           /* optical alignment across blocks */
+  }
+
+  .funder-footer__block--msca {
+    justify-content: flex-start;
+  }
+
+  .funder-footer__block--eu {
+    justify-content: flex-start;
+  }
+
+  .funder-footer__block--ukri {
+    justify-content: flex-end;
+  }
+
+  .funder-footer__logo {
+    display: block;
+    width: auto;
+    flex-shrink: 0;
+    margin-top: 2px;            /* micro optical correction */
+  }
+
+  /* Optical balance (EU bigger, MSCA smaller) */
+  .funder-footer__logo--eu   { height: 66px; }
+  .funder-footer__logo--msca { height: 34px; }
+  .funder-footer__logo--ukri { height: 40px; }
+
+  .funder-footer__text {
+    margin: 0;
+  }
+
+  /* Fixed text width: makes EU/UKRI blocks visually balanced */
+  .funder-footer__text--fixed {
+    max-width: 270px;
+    margin-top: 2px;
+  }
+
+  .funder-footer__text strong {
+    font-weight: 700;
+    color: rgba(0,0,0,0.82);
+  }
+
+  .funder-footer__disclaimer {
+    max-width: 1200px;
+    margin: 12px auto 0 auto;
+    padding-top: 10px;
+    border-top: 1px solid rgba(0,0,0,.08);
+    font-size: 0.72rem;
+    color: rgba(0,0,0,0.60);
+  }
+
+  .funder-footer__disclaimer p {
+    margin: 0;
+  }
+
+  /* Responsive: stack cleanly */
+  @media (max-width: 900px) {
+    .funder-footer__grid {
+      grid-template-columns: 1fr;
+    }
+    .funder-footer__block--ukri {
+      justify-content: flex-start;
+    }
+    .funder-footer__text--fixed {
+      max-width: 520px;
+    }
+  }
 </style>
