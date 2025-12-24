@@ -237,4 +237,18 @@
   max-width: 70%;   /* ≈ 30% smaller */
   margin: 0 auto;   /* centered */
 }
+  /* Work Packages: sidebar figure (fallback) */
+.wp-sidebar-figure {
+  max-width: 320px;
+  float: right;
+  margin: 0 0 16px 24px;
+}
+
+@media (max-width: 900px) {
+  .wp-sidebar-figure {
+    float: none;
+    max-width: 100%;
+    margin: 16px 0;
+  }
+}
 </style>
