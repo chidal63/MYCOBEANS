@@ -31,5 +31,6 @@ The third objective is dedicated to people. MYCOBEANS provides intersectoral tra
 {% include figure
    image_path="assets/images/figures/key_facts.png"
    alt="Key facts about MYCOBEANS"
-   caption="Key facts of the MYCOBEANS project." %}
+   caption="Key facts of the MYCOBEANS project."
+   class="figure-small" %}
 
