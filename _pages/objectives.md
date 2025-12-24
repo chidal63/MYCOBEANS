@@ -1,7 +1,10 @@
 ---
 title: "Aim & Objectives"
-permalink: /aim-objectives/
+permalink: /objectives/
 layout: single
+classes: wide
+sidebar: false
+toc: false
 ---
 
 ## Aim
