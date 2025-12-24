@@ -237,6 +237,19 @@
   max-width: 70%;   /* ≈ 30% smaller */
   margin: 0 auto;   /* centered */
 }
+  /* Force caption below image for small figures */
+.figure-small {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.figure-small figcaption {
+  margin-top: 8px;
+  text-align: center;
+  font-size: 0.65rem;
+  color: rgba(0,0,0,0.6);
+}
   /* Work Packages: sidebar figure (fallback) */
 .wp-sidebar-figure {
   max-width: 320px;
