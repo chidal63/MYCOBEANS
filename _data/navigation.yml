@@ -14,5 +14,8 @@ main:
   - title: "News & Events"
     url: /news/
 
+  - title: "Open repositories"
+    url: /open-repositories/
+
   - title: "Contact"
     url: /contact/
