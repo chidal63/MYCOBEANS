@@ -2,34 +2,30 @@
 
   <div class="masthead-simple__row">
 
-    <!-- LEFT: EU + PROJECT LOGOS -->
-    <div class="masthead-simple__side masthead-simple__side--left">
-      <a href="{{ '/' | relative_url }}">
-        <img
-          src="{{ '/assets/images/logos/eu.png' | relative_url }}"
-          alt="European Union"
-          class="masthead-simple__logo"
-        >
-      </a>
+    <!-- LEFT: spacer only (keeps the center truly centered) -->
+    <div class="masthead-simple__side masthead-simple__side--left" aria-hidden="true"></div>
 
-      <a href="{{ '/' | relative_url }}">
+    <!-- CENTER: MYCOBEANS logo acts as title -->
+    <div class="masthead-simple__center">
+      <a href="{{ '/' | relative_url }}" class="masthead-simple__brand" aria-label="MYCOBEANS home">
         <img
           src="{{ '/assets/images/logos/mycobeans.png' | relative_url }}"
           alt="MYCOBEANS"
-          class="masthead-simple__logo"
+          class="masthead-simple__brand-logo"
         >
       </a>
     </div>
 
-    <!-- CENTER: PROJECT TITLE (true centered via CSS absolute) -->
-    <div class="masthead-simple__title">
-      <a href="{{ '/' | relative_url }}">
-        {{ site.masthead_title | default: site.title }}
-      </a>
-    </div>
-
-    <!-- RIGHT: HAMBURGER -->
+    <!-- RIGHT: EU logo + hamburger -->
     <div class="masthead-simple__side masthead-simple__side--right">
+      <a href="{{ '/' | relative_url }}" class="masthead-simple__eu" aria-label="European Union">
+        <img
+          src="{{ '/assets/images/logos/eu.png' | relative_url }}"
+          alt="European Union"
+          class="masthead-simple__logo masthead-simple__logo--eu"
+        >
+      </a>
+
       <label for="nav-toggle" class="nav-toggle__button" aria-label="Toggle menu">☰</label>
     </div>
 
