@@ -7,6 +7,15 @@ excerpt: "MYCOBEANS at ASEAN-SAfe 2025 (Bangkok, Thailand), 19–20 November 202
 header:
   teaser: assets/images/events/aseansafe-banner.png
 ---
-MYCOBEANS will participate in the **ASEAN-SAfe Conference 2025**, held in Bangkok (Thailand), to support dissemination and networking activities.
 
+MYCOBEANS will participate in the **ASEAN-SAfe Conference 2025**, held in Bangkok (Thailand), to support dissemination and networking activities.
 **Official website:** <a href="https://www.biotec.or.th/aseansafe2025/" target="_blank" rel="noopener">ASEAN-SAfe 2025</a>
+**Date:** 19–20 November 2025  
+**Location:** Bangkok, Thailand  
+**Type:** Conference
+
+{% include figure
+   image_path="assets/images/events/aseansafe-banner.jpeg"
+   alt="ASEAN-SAfe Conference 2025" %}
+
+Second paragraph with outcomes, networking, dissemination, or relevance for the project.
