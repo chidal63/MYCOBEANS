@@ -11,8 +11,8 @@ main:
   - title: "Consortium"
     url: /consortium/
 
-  - title: "News & Events"
-    url: /news/
+ - title: "News & Events"
+  url: /events/
 
   - title: "Open repositories"
     url: /open-repositories/
