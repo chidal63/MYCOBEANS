@@ -5,14 +5,8 @@ main:
   - title: "Aim & Objectives"
     url: /aim-objectives/
 
-  - title: "The Project"
-    url: /the-project/
-
   - title: "Work Packages"
     url: /work-packages/
-
-  - title: "Deliverables"
-    url: /deliverables/
 
   - title: "Consortium"
     url: /consortium/
