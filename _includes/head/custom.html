@@ -299,3 +299,66 @@
   }
 }
 </style>
+
+/* =========================
+   EVENTS PAGE – BOX GRID
+   ========================= */
+
+.events-grid{
+  display:grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap:18px;
+}
+
+.event-card{
+  display:block;
+  border:1px solid rgba(0,0,0,.10);
+  border-radius:14px;
+  overflow:hidden;
+  text-decoration:none;
+  background:#fff;
+}
+
+.event-card__img{
+  width:100%;
+  height:180px;
+  object-fit:cover;
+  display:block;
+}
+
+.event-card__body{
+  padding:12px 14px;
+}
+
+.event-card__title{
+  font-weight:700;
+  color: rgba(0,0,0,.85);
+}
+
+.event-card__meta{
+  font-size:.72rem;
+  color: rgba(0,0,0,.55);
+  margin-top:3px;
+}
+
+.event-card__excerpt{
+  font-size:.78rem;
+  color: rgba(0,0,0,.70);
+  margin-top:8px;
+  line-height:1.35;
+}
+
+@media (max-width: 1000px){
+  .events-grid{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px){
+  .events-grid{
+    grid-template-columns: 1fr;
+  }
+  .event-card__img{
+    height:200px;
+  }
+}
