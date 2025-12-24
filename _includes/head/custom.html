@@ -250,16 +250,34 @@
   font-size: 0.65rem;
   color: rgba(0,0,0,0.6);
 }
-/* Work Packages: left sidebar figure */
-.wp-sidebar-left {
-  max-width: 340px;
+/* Work Packages: true left sidebar block */
+.wp-sidebar-left{
   float: left;
-  margin: 0 32px 24px 0; /* spazio tra sidebar e testo */
+  width: 340px;
+  max-width: 40%;
+  margin: 0 32px 24px 0;
 }
 
-@media (max-width: 900px) {
-  .wp-sidebar-left {
+.wp-sidebar-left__img{
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid rgba(0,0,0,.08);
+  border-radius: 10px;
+}
+
+.wp-sidebar-left__cap{
+  margin: 8px 0 0 0;
+  font-size: 0.65rem;
+  line-height: 1.25;
+  color: rgba(0,0,0,0.6);
+  text-align: center;
+}
+
+@media (max-width: 900px){
+  .wp-sidebar-left{
     float: none;
+    width: 100%;
     max-width: 100%;
     margin: 16px 0;
   }
