@@ -1,5 +1,5 @@
 main:
-  - title: "The Project"
+  - title: "MYCOBEANS - Exploring emerging mycotoxins risk in beans: a global alliance for climate change resilience"
     url: /the-project/
   - title: "Objectives"
     url: /objectives/
@@ -7,7 +7,9 @@ main:
     url: /work-packages/
   - title: "Deliverables"
     url: /deliverables/
-  - title: "Consortium"
+  - title: "Consortium at a glance"
     url: /consortium/
   - title: "News & Events"
     url: /events/
+ - title: "MYCOBEANS Open Repositories"
+    url: /open-repositories/
