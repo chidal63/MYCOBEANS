@@ -8,7 +8,7 @@ toc: false
 sidebar: true
 sidebar:
   title: "At a glance"
-  image: /assets/images/figures/info.png
+  image: /assets/images/figures/Info.png
   image_alt: "Work packages overview"
   text: "Summary of the MYCOBEANS work packages and knowledge exchange structure."
 ---
