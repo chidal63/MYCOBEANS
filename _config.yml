@@ -61,24 +61,17 @@ plugins:
 footer:
   links: []
 defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: false
-      read_time: false
-      comments: false
-      share: false
-      related: false
   # _pages
+defaults:
   - scope:
       path: "_pages"
       type: pages
     values:
       layout: single
       author_profile: false
+      toc: false
+      classes: wide
+      sidebar: false
 
 category_archive:
   type: liquid
