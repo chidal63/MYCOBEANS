@@ -8,7 +8,7 @@ header:
   teaser: /assets/images/events/midterm-parma.jpg
 ---
 
-**MYCOBEANS Mid-Term Meeting | Parma**
+**MYCOBEANS Mid-Term Meeting in Parma**
 
 {% include figure image_path="/assets/images/events/midterm-parma.jpg" alt="the MYCOBEANS Consortium" %}
 The MYCOBEANS consortium met in Parma, hosted by UNIPR, for its mid-term meeting, focusing on a critical assessment of progress across the project.
