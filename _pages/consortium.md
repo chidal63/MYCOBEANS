@@ -158,7 +158,7 @@ The consortium includes six academic institutions, one public non-academic resea
       <span class="name">Queen’s University Belfast</span>
       <span class="meta">(QUB – United Kingdom)</span>
     </p>
-    <p class="partner-desc">QUB provides long-lasting expertise in advanced analytical chemistry. Moreover it supports knowledge transfer and training activities, with experience in interdisciplinary education, dissemination and public engagement.</p>
+    <p class="partner-desc">QUB provides long-lasting expertise in advanced analytical chemistry. Moreover it supports knowledge transfer and training activities, dissemination activities and public engagement.</p>
     <div class="partner-contact"><span class="label">Principal Investigator:</span> Nicholas Birse</div>
   </div>
 
