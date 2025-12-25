@@ -7,7 +7,7 @@ excerpt: "MYCOBEANS Leadership @ FoodRevolution® 2024"
 header:
   teaser: assets/images/events/food-revolution-2024.jpg
 ---
-Participation in **Food Revolution 2024** to disseminate MYCOBEANS goals and engage with stakeholders.
+**MYCOBEANS Leadership @ FoodRevolution® 2024**
 
 {% include figure image_path="assets/images/events/food-revolution-2024.jpg" alt="MYCOBEANS at Food Revolution 2024" %}
 
