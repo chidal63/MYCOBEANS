@@ -90,6 +90,17 @@ toc: false
 .logo-wide{
   transform: scale(1.18);
 }
+  .partner-pi{
+  margin-top:10px;
+  padding-top:8px;
+  border-top:1px solid rgba(0,0,0,.08);
+  font-size:0.9rem;
+  line-height:1.25;
+  color:rgba(0,0,0,.75);
+}
+.partner-pi strong{
+  font-weight:600;
+}
 </style>
 ## Consortium overview
 
@@ -103,10 +114,12 @@ The consortium includes six academic institutions, one public non-academic resea
 <div class="logo-grid">
   <div class="partner-card">
     <div class="partner-logo">
-      <img src="{{ '/assets/images/logos/UNIPR.jpg' | relative_url }}" alt="University of Parma (UNIPR)">
+      <img src="{{ '/assets/images/logos/UNIPR.jpg' | relative_url }}" alt="University of Parma (UNIPR)" class="logo-wide">
     </div>
     <div class="partner-name">University of Parma (UNIPR) — Italy</div>
     <p class="partner-desc">UNIPR coordinates the project and ensures scientific coherence, governance and dissemination activities. The institution contributes expertise in food safety, mycotoxin analysis and risk assessment, acting as a central hub for interdisciplinary integration across the consortium.</p>
+ <div class="partner-pi">
+    <strong>Principal Investigator:</strong> Prof. Chiara Dall'Asta
   </div>
 </div>
 
@@ -126,6 +139,8 @@ The consortium includes six academic institutions, one public non-academic resea
       <span class="meta">(UNIVIE – Austria)</span>
     </p>
     <p class="partner-desc">UNIVIE provides expertise in toxicology and exposure assessment, contributing to the evaluation of health risks associated with mycotoxin occurrence and combined exposure scenarios.</p>
+   <div class="partner-pi">
+    <strong>Principal Investigator:</strong> Prof. Doris Marko
   </div>
 
   <div class="partner-card">
@@ -137,6 +152,8 @@ The consortium includes six academic institutions, one public non-academic resea
       <span class="meta">(QUB – United Kingdom)</span>
     </p>
     <p class="partner-desc">QUB supports knowledge transfer and training activities, with experience in interdisciplinary education, dissemination and public engagement.</p>
+  <div class="partner-pi">
+    <strong>Principal Investigator:</strong> Dr. Nicholas Birse
   </div>
 
 </div>
@@ -153,6 +170,8 @@ The consortium includes six academic institutions, one public non-academic resea
       <span class="meta">(TU – Thailand)</span>
     </p>
     <p class="partner-desc">TU contributes expertise in analytical chemistry and interlaboratory method development, supporting the detection and monitoring of mycotoxins in beans and legumes.</p>
+ <div class="partner-pi">
+    <strong>Principal Investigator:</strong> Prof. Awanwee Petchkongkaew
   </div>
 
   <div class="partner-card">
@@ -164,6 +183,8 @@ The consortium includes six academic institutions, one public non-academic resea
       <span class="meta">(MU – Thailand)</span>
     </p>
     <p class="partner-desc">MU contributes expertise in molecular biology and bioinformatics, supporting the application of genomics-driven approaches to the study of fungal contamination and mycotoxin-related risks.</p>
+   <div class="partner-pi">
+    <strong>Principal Investigator:</strong> Dr. Thidathip Wongsurawat
   </div>
 
   <div class="partner-card">
@@ -175,6 +196,8 @@ The consortium includes six academic institutions, one public non-academic resea
       <span class="meta">(PSU – Thailand)</span>
     </p>
     <p class="partner-desc">PSU provides expertise in food science and food processing, contributing to the assessment of mycotoxin occurrence and mitigation strategies along the food production chain.</p>
+ <div class="partner-pi">
+    <strong>Principal Investigator:</strong> Prof.Chongdee Thammakhet-Buranachai
   </div>
 
 </div>
@@ -189,9 +212,10 @@ The consortium includes six academic institutions, one public non-academic resea
     </div>
     <div class="partner-name">National Science and Technology Development Agency (NSTDA-BIOTEC) — Thailand</div>
     <p class="partner-desc">NSTDA-BIOTEC contributes expertise in biotechnology and fermentation processes, supporting the development and evaluation of bio-based strategies and multi-omics integration for mycotoxin risk mitigation.</p>
+   <div class="partner-pi">
+    <strong>Principal Investigator:</strong> Prof.Nitsara Karoonuthaisiri
   </div>
 </div>
-
 ---
 
 ## Industrial partners
@@ -209,6 +233,8 @@ The consortium includes six academic institutions, one public non-academic resea
     <p class="partner-desc">
       Barilla contributes an industrial perspective on legume-based food products, supporting the alignment of research activities with real-world production and quality requirements.
     </p>
+    <div class="partner-pi">
+    <strong>Principal Investigator:</strong> Dr. Michele Suman
   </div>
 
   <div class="partner-card">
@@ -222,6 +248,8 @@ The consortium includes six academic institutions, one public non-academic resea
     <p class="partner-desc">
       HiFood provides expertise in food ingredients and processing, contributing to the evaluation of practical mitigation strategies and their applicability in industrial contexts.
     </p>
+<div class="partner-pi">
+    <strong>Principal Investigator:</strong> Dr. Daniele Mori
   </div>
 
   <div class="partner-card">
@@ -235,6 +263,8 @@ The consortium includes six academic institutions, one public non-academic resea
     <p class="partner-desc">
       Biopharm contributes experience in applied biotechnology, supporting the exploration of innovative bio-based solutions relevant to food and feed safety.
     </p>
+  <div class="partner-pi">
+    <strong>Principal Investigator:</strong> Dr. Michalina Oplatowska
   </div>
 
   <div class="partner-card">
@@ -248,8 +278,9 @@ The consortium includes six academic institutions, one public non-academic resea
     <p class="partner-desc">
       Finnebrogue provides an industrial perspective on food processing and safety, contributing to the assessment of feasibility and scalability of mitigation approaches.
     </p>
+  <div class="partner-pi">
+    <strong>Principal Investigator:</strong> PI
   </div>
-
 </div>
 ---
 
