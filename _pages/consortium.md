@@ -8,52 +8,89 @@ toc: false
 ---
 
 <style>
-  .logo-grid{
+  /* layout */
+  .partner-grid{
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
-    gap:18px;
-    margin: 0 0 28px 0;
+    gap:20px;
+    margin: 0 0 26px 0;
   }
+  .grid-2{ grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .grid-3{ grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .grid-4{ grid-template-columns: repeat(4, minmax(0, 1fr)); }
+
+  /* responsive */
+  @media (max-width: 980px){
+    .grid-3, .grid-4{ grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  }
+  @media (max-width: 620px){
+    .grid-2, .grid-3, .grid-4{ grid-template-columns: 1fr; }
+  }
+
+  /* cards */
   .partner-card{
     background:#fff;
     border:1px solid rgba(0,0,0,.08);
-    border-radius:14px;
+    border-radius:16px;
     padding:16px 16px 14px 16px;
+    box-shadow: 0 1px 0 rgba(0,0,0,.02);
   }
+
+  /* logo box: più grande e "pulito" anche con jpeg */
   .partner-logo{
     background:#fff;
     border:1px solid rgba(0,0,0,.06);
-    border-radius:12px;
-    padding:14px 16px;
+    border-radius:14px;
+    padding:16px 16px;
     display:flex;
     align-items:center;
     justify-content:center;
-    min-height:92px;
+    min-height:110px;
     margin-bottom:10px;
   }
   .partner-logo img{
-    max-height:56px;
+    max-height:78px;   /* <- logo più grande */
     max-width:100%;
     width:auto;
     height:auto;
     object-fit:contain;
     display:block;
   }
-  .partner-name{
-    font-weight:700;
-    margin: 0 0 6px 0;
-    line-height:1.25;
+
+  /* name lines */
+  .partner-title{
+    margin:0 0 6px 0;
+    line-height:1.15;
   }
+  .partner-title .name{
+    font-weight:800;
+    font-size:1.02rem;
+    display:block;
+    white-space:nowrap;        /* tenta 1 riga */
+    overflow:hidden;
+    text-overflow:ellipsis;    /* se proprio non ci sta */
+  }
+  .partner-title .meta{
+    display:block;
+    font-size:.92rem;
+    opacity:.8;
+  }
+
   .partner-desc{
     margin:0;
     line-height:1.35;
     font-size:0.98rem;
   }
-</style>
 
+  /* small section labels */
+  .subsection-label{
+    font-weight:800;
+    margin: 0 0 10px 0;
+  }
+</style>
 ## Consortium overview
 
 MYCOBEANS is implemented by a multidisciplinary and intersectoral consortium composed of academic and non-academic organisations from Europe, the United Kingdom and ASEAN countries. The consortium integrates complementary expertise in analytical chemistry, toxicology, biotechnology, bioinformatics, molecular biology, food chemistry, food processing and regulatory science, ensuring full coverage of the project objectives and strong integration between research and application.
+The consortium includes six academic institutions, one public non-academic research organisation and four industrial partners. The partnership is based both in the EU, in the UK and in the ASEAN region.
 
 ---
 
@@ -73,37 +110,55 @@ MYCOBEANS is implemented by a multidisciplinary and intersectoral consortium com
 
 ## Academic partners
 
-<div class="logo-grid">
-
-  <div class="partner-card">
-    <div class="partner-logo">
-      <img src="{{ '/assets/images/logos/TU.png' | relative_url }}" alt="Thammasat University (TU)">
-    </div>
-    <div class="partner-name">Thammasat University (TU) — Thailand</div>
-    <p class="partner-desc">TU contributes expertise in analytical chemistry and interlaboratory method development, supporting the detection and monitoring of mycotoxins in beans and legumes.</p>
-  </div>
+<div class="subsection-label">Europe & UK</div>
+<div class="partner-grid grid-2">
 
   <div class="partner-card">
     <div class="partner-logo">
       <img src="{{ '/assets/images/logos/UNIVIE.jpeg' | relative_url }}" alt="University of Vienna (UNIVIE)">
     </div>
-    <div class="partner-name">University of Vienna (UNIVIE) — Austria</div>
-    <p class="partner-desc">UNIVIE provides expertise in toxicology and exposure assessment, contributing to the evaluation of health risks associated with mycotoxin co-occurrence and combined exposure scenarios.</p>
+    <p class="partner-title">
+      <span class="name">University of Vienna</span>
+      <span class="meta">(UNIVIE – Austria)</span>
+    </p>
+    <p class="partner-desc">UNIVIE provides expertise in toxicology and exposure assessment, contributing to the evaluation of health risks associated with mycotoxin occurrence and combined exposure scenarios.</p>
   </div>
 
   <div class="partner-card">
     <div class="partner-logo">
       <img src="{{ '/assets/images/logos/QUB.png' | relative_url }}" alt="Queen’s University Belfast (QUB)">
     </div>
-    <div class="partner-name">Queen’s University Belfast (QUB) — United Kingdom</div>
-    <p class="partner-desc">QUB supports knowledge transfer and training activities, with experience in interdisciplinary education, intersectorial knowledge transfer, dissemination and public engagement.</p>
+    <p class="partner-title">
+      <span class="name">Queen’s University Belfast</span>
+      <span class="meta">(QUB – United Kingdom)</span>
+    </p>
+    <p class="partner-desc">QUB supports knowledge transfer and training activities, with experience in interdisciplinary education, dissemination and public engagement.</p>
+  </div>
+
+</div>
+
+<div class="subsection-label">Thailand</div>
+<div class="partner-grid grid-3">
+
+  <div class="partner-card">
+    <div class="partner-logo">
+      <img src="{{ '/assets/images/logos/TU.png' | relative_url }}" alt="Thammasat University (TU)">
+    </div>
+    <p class="partner-title">
+      <span class="name">Thammasat University</span>
+      <span class="meta">(TU – Thailand)</span>
+    </p>
+    <p class="partner-desc">TU contributes expertise in analytical chemistry and interlaboratory method development, supporting the detection and monitoring of mycotoxins in beans and legumes.</p>
   </div>
 
   <div class="partner-card">
     <div class="partner-logo">
       <img src="{{ '/assets/images/logos/MU.png' | relative_url }}" alt="Mahidol University (MU)">
     </div>
-    <div class="partner-name">Mahidol University (MU) — Thailand</div>
+    <p class="partner-title">
+      <span class="name">Mahidol University</span>
+      <span class="meta">(MU – Thailand)</span>
+    </p>
     <p class="partner-desc">MU contributes expertise in molecular biology and bioinformatics, supporting the application of genomics-driven approaches to the study of fungal contamination and mycotoxin-related risks.</p>
   </div>
 
@@ -111,12 +166,14 @@ MYCOBEANS is implemented by a multidisciplinary and intersectoral consortium com
     <div class="partner-logo">
       <img src="{{ '/assets/images/logos/PSU.png' | relative_url }}" alt="Prince of Songkla University (PSU)">
     </div>
-    <div class="partner-name">Prince of Songkla University (PSU) — Thailand</div>
-    <p class="partner-desc">PSU provides expertise in green analytical solutions, contributing to the design of smart technologies for mycotoxin analysis along the food production chain.</p>
+    <p class="partner-title">
+      <span class="name">Prince of Songkla University</span>
+      <span class="meta">(PSU – Thailand)</span>
+    </p>
+    <p class="partner-desc">PSU provides expertise in food science and food processing, contributing to the assessment of mycotoxin occurrence and mitigation strategies along the food production chain.</p>
   </div>
 
 </div>
-
 ---
 
 ## Non-academic partner
@@ -135,42 +192,61 @@ MYCOBEANS is implemented by a multidisciplinary and intersectoral consortium com
 
 ## Industrial partners
 
-<div class="logo-grid">
+<div class="partner-grid grid-4">
 
   <div class="partner-card">
     <div class="partner-logo">
       <img src="{{ '/assets/images/logos/Barilla.png' | relative_url }}" alt="Barilla">
     </div>
-    <div class="partner-name">Barilla — Italy</div>
-    <p class="partner-desc">Barilla contributes an industrial perspective on legume-based food products, supporting the alignment of research activities with real-world production and quality requirements.</p>
+    <p class="partner-title">
+      <span class="name">Barilla</span>
+      <span class="meta">(Italy)</span>
+    </p>
+    <p class="partner-desc">
+      Barilla contributes an industrial perspective on legume-based food products, supporting the alignment of research activities with real-world production and quality requirements.
+    </p>
   </div>
 
   <div class="partner-card">
     <div class="partner-logo">
       <img src="{{ '/assets/images/logos/Hifood.png' | relative_url }}" alt="HiFood">
     </div>
-    <div class="partner-name">HiFood — Italy</div>
-    <p class="partner-desc">HiFood provides expertise in food ingredients and processing, contributing to the evaluation of practical mitigation strategies and their applicability in industrial contexts.</p>
+    <p class="partner-title">
+      <span class="name">HiFood</span>
+      <span class="meta">(Italy)</span>
+    </p>
+    <p class="partner-desc">
+      HiFood provides expertise in food ingredients and processing, contributing to the evaluation of practical mitigation strategies and their applicability in industrial contexts.
+    </p>
   </div>
 
   <div class="partner-card">
     <div class="partner-logo">
       <img src="{{ '/assets/images/logos/Biopharm.png' | relative_url }}" alt="Biopharm">
     </div>
-    <div class="partner-name">Biopharm — Italy</div>
-    <p class="partner-desc">Biopharm contributes experience in applied biotechnology, supporting the exploration of innovative smart technologies relevant to food and feed safety.</p>
+    <p class="partner-title">
+      <span class="name">Biopharm</span>
+      <span class="meta">(Italy)</span>
+    </p>
+    <p class="partner-desc">
+      Biopharm contributes experience in applied biotechnology, supporting the exploration of innovative bio-based solutions relevant to food and feed safety.
+    </p>
   </div>
 
   <div class="partner-card">
     <div class="partner-logo">
       <img src="{{ '/assets/images/logos/finnebrogue.png' | relative_url }}" alt="Finnebrogue">
     </div>
-    <div class="partner-name">Finnebrogue — United Kingdom</div>
-    <p class="partner-desc">Finnebrogue provides an industrial perspective on food processing and safety, contributing to the assessment of feasibility and scalability of mitigation approaches.</p>
+    <p class="partner-title">
+      <span class="name">Finnebrogue</span>
+      <span class="meta">(United Kingdom)</span>
+    </p>
+    <p class="partner-desc">
+      Finnebrogue provides an industrial perspective on food processing and safety, contributing to the assessment of feasibility and scalability of mitigation approaches.
+    </p>
   </div>
 
 </div>
-
 ---
 
 ## International and intersectoral framework
