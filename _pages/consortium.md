@@ -25,7 +25,8 @@ toc: false
   @media (max-width: 620px){
     .grid-2, .grid-3, .grid-4{ grid-template-columns: 1fr; }
   }
-
+  .grid-1{ grid-template-columns: 1fr; }
+ }
   /* cards */
   .partner-card{
     background:#fff;
@@ -117,7 +118,7 @@ The consortium includes six academic institutions, one public non-academic resea
 
 ## Coordinating Institution
 
-<div class="partner-grid grid-2">
+<div class="partner-grid grid-1">
   <div class="partner-card">
     <div class="partner-logo">
       <img src="{{ '/assets/images/logos/UNIPR.jpg' | relative_url }}" alt="University of Parma (UNIPR)" class="logo-wide">
@@ -209,7 +210,7 @@ The consortium includes six academic institutions, one public non-academic resea
 
 ## Non-academic partner
 
-<div class="partner-grid grid-2">
+<div class="partner-grid grid-1">
   <div class="partner-card">
     <div class="partner-logo">
       <img src="{{ '/assets/images/logos/NSTDA-BIOTEC.png' | relative_url }}" alt="NSTDA-BIOTEC">
