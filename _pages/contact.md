@@ -32,7 +32,7 @@ This website does not intentionally collect personal data from visitors.
 
 - **Hosting:** The site is hosted on GitHub Pages. GitHub may process technical data (e.g., IP address and standard server logs) to deliver the service.
 - **Cookies:** No cookies are set by this website for tracking purposes.
-- **Analytics:** No third-party analytics are used at this time.
+- **Analytics:** GoatCounter (privacy-friendly, cookieless) is used to collect aggregated usage statistics.”
 - **Contact:** If you contact us by email, your message and address will be processed only to respond to your request.
 
 For questions about this notice, please use the contact details on the **Contact** page.
