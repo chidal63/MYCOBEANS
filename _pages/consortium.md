@@ -6,38 +6,31 @@ layout: single
 
 ## Consortium overview
 
-MYCOBEANS is implemented by a multidisciplinary and intersectoral consortium composed of leading academic and non-academic organisations from Europe, the United Kingdom and ASEAN countries. The consortium combines complementary expertise in analytical chemistry, toxicology, biotechnology, food processing and regulatory science, ensuring full coverage of the project objectives.
+MYCOBEANS is implemented by a multidisciplinary and intersectoral consortium composed of academic and non-academic organisations from Europe, the United Kingdom and ASEAN countries. The consortium brings together complementary expertise in analytical chemistry, toxicology, biotechnology, bioinformatics, molecular biology, food chemistry, food processing and regulatory science, ensuring full coverage of the project objectives and a strong integration between research and application.
 
 ## Coordinating institution
 
 **University of Parma (UNIPR)** — *Italy*  
-**Role:** Project coordination, management, dissemination and exploitation (WP5)  
-UNIPR coordinates the project and provides expertise in food safety, mycotoxin analysis and risk assessment, ensuring scientific coherence and effective project governance.
+UNIPR coordinates the project and ensures scientific coherence, governance and dissemination activities. The institution contributes expertise in food safety, mycotoxin analysis and risk assessment, providing a central reference point for interdisciplinary integration across the consortium.
 
 ## Academic partners
 
-**Thammasat University (TU)** — *Thailand*  
-**Role:** Advanced mycotoxin diagnostics (WP1)  
-Expertise in analytical chemistry and interlaboratory method development for mycotoxin detection and monitoring.
+Thammasat University (TU) — Thailand
+TU contributes expertise in analytical chemistry and interlaboratory method development, supporting the detection and monitoring of mycotoxins in beans and legumes.
 
-**University of Vienna (UNIVIE)** — *Austria*  
-**Role:** Toxicological and safety assessment (WP2)  
-Expertise in toxicology, exposure assessment and combined risk evaluation.
+University of Vienna (UNIVIE) — Austria
+UNIVIE provides expertise in toxicology and exposure assessment, contributing to the evaluation of health risks associated with mycotoxin occurrence.
 
-**Queen’s University Belfast (QUB)** — *United Kingdom*  
-**Role:** Knowledge transfer, training and public engagement (WP4)  
-Expertise in training programmes, science communication and dissemination.
+Queen’s University Belfast (QUB) — United Kingdom
+QUB supports knowledge transfer and training activities, with experience in interdisciplinary education, dissemination and public engagement.
 
 ## Non-academic partners
 
-**National Science and Technology Development Agency (NSTDA)** — *Thailand*  
-**Role:** Biotechnological mitigation strategies (WP3)  
-Expertise in biotechnology, fermentation processes and bio-based mitigation approaches.
+National Science and Technology Development Agency (NSTDA) — Thailand
+NSTDA contributes expertise in biotechnology and fermentation processes, supporting the development of bio-based strategies for mycotoxin risk mitigation.
 
-## International collaboration framework
+## International and Intersectoral Framework
 
-The consortium builds on the existing network of the **International Joint Research Center on Food Security (Thailand)**, providing a strong platform for long-term collaboration, knowledge exchange and capacity building across regions.
+The consortium builds on the existing network of the International Joint Research Center on Food Security (Thailand), providing a platform for long-term collaboration, staff mobility and capacity building across regions.
+Intersectoral and interdisciplinary collaboration is embedded through staff exchanges, expert visits and joint activities involving early-career and senior researchers, ensuring effective knowledge transfer and skills development within a highly multidisciplinary environment.
 
-## Intersectoral and training dimension
-
-MYCOBEANS promotes extensive intersectoral collaboration through staff exchanges, expert visits and joint research activities involving doctoral, postdoctoral and senior researchers. This structure ensures effective knowledge transfer and the development of early-career researchers within a highly multidisciplinary environment.
