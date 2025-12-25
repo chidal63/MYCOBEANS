@@ -62,7 +62,7 @@ MYCOBEANS is implemented by a multidisciplinary and intersectoral consortium com
 <div class="logo-grid">
   <div class="partner-card">
     <div class="partner-logo">
-      <img src="{{ '/assets/images/logos/UNIPR.jpg' | relative_url }}" alt="University of Parma (UNIPR)">
+      <img src="{{ '/assets/images/logos/UNIPR.png' | relative_url }}" alt="University of Parma (UNIPR)">
     </div>
     <div class="partner-name">University of Parma (UNIPR) — Italy</div>
     <p class="partner-desc">UNIPR coordinates the project and ensures scientific coherence, governance and dissemination activities. The institution contributes expertise in food safety, mycotoxin analysis and risk assessment, acting as a central hub for interdisciplinary integration across the consortium.</p>
