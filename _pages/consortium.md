@@ -86,6 +86,10 @@ toc: false
     font-weight:800;
     margin: 0 0 10px 0;
   }
+  /* compensate excessive white margins in some academic logos */
+.logo-wide{
+  transform: scale(1.18);
+}
 </style>
 ## Consortium overview
 
@@ -99,7 +103,7 @@ The consortium includes six academic institutions, one public non-academic resea
 <div class="logo-grid">
   <div class="partner-card">
     <div class="partner-logo">
-      <img src="{{ '/assets/images/logos/UNIPR.png' | relative_url }}" alt="University of Parma (UNIPR)">
+      <img src="{{ '/assets/images/logos/UNIPR.jpg' | relative_url }}" alt="University of Parma (UNIPR)">
     </div>
     <div class="partner-name">University of Parma (UNIPR) — Italy</div>
     <p class="partner-desc">UNIPR coordinates the project and ensures scientific coherence, governance and dissemination activities. The institution contributes expertise in food safety, mycotoxin analysis and risk assessment, acting as a central hub for interdisciplinary integration across the consortium.</p>
@@ -142,7 +146,7 @@ The consortium includes six academic institutions, one public non-academic resea
 
   <div class="partner-card">
     <div class="partner-logo">
-      <img src="{{ '/assets/images/logos/TU.png' | relative_url }}" alt="Thammasat University (TU)">
+     <img src="{{ '/assets/images/logos/TU.png' | relative_url }}" alt="Thammasat University (TU)" class="logo-wide">
     </div>
     <p class="partner-title">
       <span class="name">Thammasat University</span>
@@ -153,7 +157,7 @@ The consortium includes six academic institutions, one public non-academic resea
 
   <div class="partner-card">
     <div class="partner-logo">
-      <img src="{{ '/assets/images/logos/MU.png' | relative_url }}" alt="Mahidol University (MU)">
+     <img src="{{ '/assets/images/logos/MU.png' | relative_url }}" alt="Mahidol University (MU)" class="logo-wide">
     </div>
     <p class="partner-title">
       <span class="name">Mahidol University</span>
@@ -164,7 +168,7 @@ The consortium includes six academic institutions, one public non-academic resea
 
   <div class="partner-card">
     <div class="partner-logo">
-      <img src="{{ '/assets/images/logos/PSU.png' | relative_url }}" alt="Prince of Songkla University (PSU)">
+     <img src="{{ '/assets/images/logos/PSU.png' | relative_url }}" alt="Prince of Songkla University (PSU)" class="logo-wide">
     </div>
     <p class="partner-title">
       <span class="name">Prince of Songkla University</span>
