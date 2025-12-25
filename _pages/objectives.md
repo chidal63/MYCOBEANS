@@ -9,25 +9,24 @@ toc: false
 
 ## Aim
 
-MYCOBEANS brings together academic and non-academic partners to tackle the **emerging risk of mycotoxins in beans and legumes**, which are increasingly used as alternative plant protein sources.
-The project aims to support food safety and strengthen supply-chain resilience in the face of climate change, by combining **scientific excellence with real-world relevance**.
+MYCOBEANS brings together academic and non-academic partners to address the emerging risk of mycotoxins in beans and legumes, a food category increasingly used as a source of alternative plant proteins. The project aims to support **food safety and supply-chain resilience** in the context of climate change by **combining scientific expertise with applied, real-world perspectives**.
 
 ## Research Objective
 
-MYCOBEANS pursues its mission through three closely connected research objectives, designed to generate knowledge, enable action, and build lasting capacity:
+MYCOBEANS pursues this aim through three closely connected research objectives, designed to generate robust knowledge, enable practical action and build long-term capacity.
 
-**Objective 1 – Improving how we detect and monitor mycotoxins**
-The first objective focuses on strengthening how mycotoxins are identified and monitored in beans and legumes. By aligning analytical approaches across laboratories and sectors, MYCOBEANS aims to generate robust, high-quality data that reflect real contamination scenarios and support reliable crop monitoring.
-
-⸻
-
-**Objective 2 – Designing effective and sustainable mitigation strategies**
-RO2 aims to turn data into solutions. By bringing together computational tools, biotechnology, and toxicological insight, the project explores innovative, bio-based strategies to reduce mycotoxin risk in food and feed. The focus is on approaches that are scientifically sound, realistic, and compatible with modern food systems.
+**Objective 1 – Strengthen detection and monitoring of mycotoxins**
+The project aims to improve the identification and monitoring of mycotoxins in beans and legumes by aligning analytical approaches across laboratories and sectors. This objective supports the generation of high-quality, comparable data reflecting real contamination scenarios and enabling reliable crop monitoring.
 
 ⸻
 
-**Objective 3 – Building skills and connections across sectors**
-The third objective is dedicated to people. MYCOBEANS provides intersectoral training opportunities for early- and middle-career scientists, enabling them to work across disciplines and between academia and industry. By fostering mobility and shared expertise, the project helps build a new generation of researchers equipped to address complex food safety challenges.
+**Objective 2 – Develop effective and sustainable mitigation strategies**
+MYCOBEANS seeks to translate data into actionable solutions by integrating computational tools, biotechnology and toxicological expertise. The focus is on exploring bio-based mitigation strategies that are scientifically sound, feasible in practice and compatible with modern food and feed systems.
+
+⸻
+
+**Objective 3 – Build skills and connections across sectors**
+The project supports intersectoral training for early- and middle-career scientists, enabling them to work across disciplines and between academia and industry. Through mobility and shared expertise, MYCOBEANS contributes to the development of professionals equipped to address complex food safety challenges.
 
 ## Key facts
 
