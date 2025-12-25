@@ -120,7 +120,7 @@ The consortium includes six academic institutions, one public non-academic resea
 <div class="partner-grid grid-2">
   <div class="partner-card">
     <div class="partner-logo">
-      <img src="{{ '/assets/images/logos/UNIPR.jpg' | relative_url }}" alt="University of Parma (UNIPR)">
+      <img src="{{ '/assets/images/logos/UNIPR.jpg' | relative_url }}" alt="University of Parma (UNIPR)" class="logo-wide">
     </div>
     <p class="partner-title">
       <span class="name">University of Parma</span>
@@ -158,7 +158,7 @@ The consortium includes six academic institutions, one public non-academic resea
       <span class="name">Queen’s University Belfast</span>
       <span class="meta">(QUB – United Kingdom)</span>
     </p>
-    <p class="partner-desc">QUB supports knowledge transfer and training activities, with experience in interdisciplinary education, dissemination and public engagement.</p>
+    <p class="partner-desc">QUB provides long-lasting expertise in advanced analytical chemistry. Moreover it supports knowledge transfer and training activities, with experience in interdisciplinary education, dissemination and public engagement.</p>
     <div class="partner-contact"><span class="label">Principal Investigator:</span> Nicholas Birse</div>
   </div>
 
