@@ -1,0 +1,19 @@
+---
+title: "MYCOBEANS Midterm Meeting"
+date: 2025-09-04
+layout: single
+categories: [events]
+excerpt: "MYCOBEANS Mid-Term Meeting | Parma"
+header:
+  teaser: /assets/images/events/midterm-parma.jpg
+---
+
+**MYCOBEANS Mid-Term Meeting | Parma**
+
+{% include figure image_path="/assets/images/events/midterm-parma.jpg" alt="the MYCOBEANS Consortium" %}
+
+The MYCOBEANS consortium met in Parma, hosted by **UNIPR**, for its mid-term meeting: two intense days of technical discussions and critical review of the work carried out so far.
+
+Progress across work packages was assessed against objectives, timelines, and scientific quality. Results were challenged, gaps identified, and priorities sharpened for the second half of the project. The focus remained on robustness, integration, and real impact on food safety.
+
+Mid-term reached — now it’s about execution.
