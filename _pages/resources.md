@@ -19,7 +19,7 @@ toc: false
 .resources-note h3{
   font-size:0.95rem;
   font-weight:600;
-  margin-bottom:0.6rem;
+  margin:0 0 0.6rem 0;
 }
 </style>
 
@@ -68,8 +68,7 @@ For general information, please use the contact details provided on the **Consor
 
 
 <div class="resources-note">
-
-### About this page ###
+<h3>About this page</h3>
 
 This page provides a curated overview of public outputs relevant to the scientific scope of MYCOBEANS.  
 Listed items include peer-reviewed publications, conference contributions and selected supporting materials that are publicly accessible and considered mature for dissemination.
@@ -78,5 +77,4 @@ Conference presentations and publications are included when they are thematicall
 
 Materials under development, preliminary results and non-public documents are intentionally excluded.  
 This approach ensures clarity, consistency and transparency throughout the duration of the project.
-
 </div>
