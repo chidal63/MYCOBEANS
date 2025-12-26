@@ -9,6 +9,8 @@ main:
     url: /work-packages/
   - title: "Consortium"
     url: /consortium/
+  - title: "Secondment Plan"
+    url: /secondments/
   - title: "News & Events"
     url: /events/
   - title: "Resources"
