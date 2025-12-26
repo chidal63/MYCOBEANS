@@ -208,7 +208,7 @@ These organisations act as **bidirectional hubs**, hosting early-career research
     describing interdisciplinary and intersectoral mobility experiences.
   </p>
   <p>
-    <a href="ZENODO_LINK_HERE" target="_blank" rel="noopener">
+  <a href="https://doi.org/10.5281/zenodo.18060699" target="_blank" rel="noopener">
       Watch the video on Zenodo →
     </a>
   </p>
