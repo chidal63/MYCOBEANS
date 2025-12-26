@@ -1,11 +1,11 @@
 # MYCOBEANS website — STATUS FREEZE
 
-Last update: 2026-01-26
+Last update: 2026-02-XX
 
 ## Scope and purpose
-Public website for the MYCOBEANS project (Marie Skłodowska-Curie Staff Exchange).
+Public website and repository ecosystem for the MYCOBEANS project (Marie Skłodowska-Curie Staff Exchange).
 
-The site is a **project showcase and transparency tool**, not a stakeholder engagement or communication platform.
+The website and associated repositories serve as **project showcase and transparency tools**, not as stakeholder engagement or communication platforms.
 No marketing funnel, no newsletter, no user profiling.
 
 Primary functions:
@@ -52,12 +52,33 @@ Analytics:
   → structured page for public outputs  
   → publications listed  
   → oral communications at international conferences listed  
-  → governance note defining inclusion criteria  
-  → placeholders for repositories, protocols and supporting material
+  → featured resource (video) linked via DOI  
+  → link to Zenodo community as canonical repository  
+  → governance note defining inclusion criteria
+- Secondments  
+  → structured overview of mobility patterns (interdisciplinary, intersectoral, applied research)  
+  → “At a glance” summary block  
+  → representative, non-exhaustive examples  
+  → no individual-level storytelling
 - Contact  
   → standalone page, no forms, no personal emails exposed
 - Privacy & Imprint  
-  → minimal, GDPR-safe, updated for GoatCounter
+  → minimal, GDPR-safe, updated for GoatCounter and external resources
+
+---
+
+## Repository & dissemination infrastructure — COMPLETED
+- **Zenodo community created:** MYCOBEANS  
+  → review required enabled  
+  → governance pages (About, Curation policy) completed  
+  → EU funding disclaimer included
+- **Zenodo records published:**
+  - Video: secondments experiences and knowledge transfer (DOI assigned)
+  - Poster: PSU → UNIPR secondment output (DOI assigned)
+  - Workshop (programme only): nanopore sequencing training (v1, DOI assigned)
+
+Zenodo is established as the **canonical repository** for public project resources.  
+The website links to Zenodo records and community but does not host files directly.
 
 ---
 
@@ -81,24 +102,29 @@ Analytics:
 - No Google Analytics or equivalent profiling tools
 - No premature open science claims
 - No individual-level storytelling on the website
-- No over-polishing at the expense of clarity and robustness
+- No publication of confidential or IP-sensitive material
+- Zenodo is the sole hosting platform for public files
+- Quality takes precedence over speed for dissemination artefacts
 
 ---
 
 ## Deferred / future work
-- **Secondments page**  
-  → not yet implemented  
-  → to be designed as a structured overview of mobility activities (intersectoral and interdisciplinary), not as personal narratives
+- **Workshop technology demonstration materials (public version)**  
+  → to be published only when non-confidential slides are available  
+  → no derived or reconstructed material to be used
+- Additional Zenodo records (posters, workshops) following established templates
 - Visual polish (fine typography and spacing)
 - Accessibility fine-tuning
-- Population of Open Repositories (when mature and public)
-- One-page PDF summary of the project
-- Optional refinement of Events templates (secondment- and workshop-specific)
+- One-page PDF project overview (to be produced when content stabilises)
 
 ---
 
 ## Current status
-Website is **live, stable and release-ready** on the custom domain.
-All core content, governance and compliance elements are in place.
+The MYCOBEANS website and Zenodo community are **live, stable and governance-compliant**.
 
-The next development phase will start from the design and implementation of the **Secondments** section.
+Core web content, privacy, compliance, and repository infrastructure are complete.  
+Dissemination activities are paused intentionally pending availability of **quality-assured, non-confidential materials**.
+
+The next development phase will resume from:
+- publication of additional Zenodo records (workshops, posters)
+- subsequent lightweight updates to the Resources page.
