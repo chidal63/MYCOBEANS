@@ -18,10 +18,14 @@
   }
 
   /* LEFT: spacer only (keeps the center truly centered) */
-  .masthead-simple__side--left {
-    width: 140px;              /* balance the right side width */
-    min-width: 140px;
-  }
+ .masthead-simple__side--left {
+  width: 240px;       /* must match right side width */
+  min-width: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+}
 
   /* CENTER: logo-as-title */
   .masthead-simple__center {
@@ -55,6 +59,17 @@
     display: block;
   }
 
+  /* MSCA logo in header (left) */
+.masthead-simple__logo--msca{
+  height: 54px;
+  width: auto;
+  display: block;
+}
+@media (max-width: 520px){
+  .masthead-simple__logo--msca{
+    height: 40px;
+  }
+}
   /* Toggle menu (checkbox hack) */
   .nav-toggle {
     position: absolute;
@@ -105,10 +120,10 @@
 
   /* Small screens */
   @media (max-width: 520px) {
-    .masthead-simple__side--left {
-      width: 70px;
-      min-width: 70px;
-    }
+   .masthead-simple__side--left {
+  width: 200px;       /* must match right side width on mobile */
+  min-width: 200px;
+}
 
     .masthead-simple__side--right {
       width: 200px;
