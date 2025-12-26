@@ -69,6 +69,77 @@ toc: false
   font-size: .9rem;
   color: rgba(0,0,0,.70);
 }
+  /* Improve rhythm inside example cards */
+.example-card .kv{
+  margin-bottom: 8px;
+  color: rgba(0,0,0,.80);
+}
+
+.example-card .kv .k{
+  font-weight: 600;
+  color: rgba(0,0,0,.85);
+}
+
+/* Focus line slightly separated */
+.example-card .kv + .kv{
+  margin-top: 6px;
+}
+
+/* Outcomes list cleaner */
+.example-card ul{
+  margin-top: 6px;
+}
+.example-card li{
+  margin: .22rem 0;
+}
+
+/* Card titles aligned */
+.example-card h4{
+  min-height: 2.4em; /* forces visual alignment across cards */
+}
+  /* Two-column layout for examples + side box */
+.side-layout{
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 18px;
+  margin-top: 1.4rem;
+}
+
+/* Side box */
+.side-box{
+  border: 1px solid rgba(0,0,0,.10);
+  border-radius: 14px;
+  padding: 14px 14px 12px 14px;
+  background: rgba(0,0,0,.02);
+}
+
+.side-box h4{
+  margin: 0 0 8px 0;
+  font-size: 1.0rem;
+  font-weight: 700;
+}
+
+.side-box p{
+  margin: 0 0 8px 0;
+  font-size: .95rem;
+  line-height: 1.4;
+}
+
+.side-box a{
+  font-weight: 600;
+}
+
+.side-note{
+  font-size: .85rem;
+  color: rgba(0,0,0,.70);
+}
+
+/* Responsive fallback */
+@media (max-width: 980px){
+  .side-layout{
+    grid-template-columns: 1fr;
+  }
+}
 </style>
 
 ## Mobility patterns
@@ -152,6 +223,29 @@ The examples below illustrate representative mobility patterns implemented in MY
     </ul>
   </div>
 
+<div class="side-layout">
+
+  <div class="side-box">
+    <h4>Hear from our secondees</h4>
+    <p>
+      Short testimonies from researchers involved in MYCOBEANS secondments,
+      describing interdisciplinary and intersectoral mobility experiences.
+    </p>
+    <p>
+      <a href="ZENODO_LINK_HERE" target="_blank" rel="noopener">
+        Watch the video on Zenodo →
+      </a>
+    </p>
+    <p class="side-note">
+      The video is hosted on Zenodo as a public project resource.
+    </p>
+  </div>
+
+  <div class="examples">
+    <!-- le tre example-card che hai già -->
+  </div>
+
+</div>
   <div class="example-card">
     <h4>Example 3 — Intersectoral technology transfer</h4>
     <p class="kv"><span class="k">From → To:</span> UNIPR / industrial partner → applied research organisation (TH)<br>
