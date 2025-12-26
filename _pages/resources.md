@@ -12,14 +12,16 @@ toc: false
   margin-top:2.5rem;
   padding-top:1rem;
   border-top:1px solid rgba(0,0,0,.08);
-  font-size:0.9rem;
-  line-height:1.4;
-  color:rgba(0,0,0,.7);
+  font-size:0.82rem;        /* ↓ più piccolo */
+  line-height:1.45;         /* ↑ per mantenere leggibilità */
+  color:rgba(0,0,0,.65);    /* più leggero */
 }
+
 .resources-note h3{
-  font-size:0.95rem;
+  font-size:0.85rem;        /* titolo subordinato */
   font-weight:600;
   margin:0 0 0.6rem 0;
+  color:rgba(0,0,0,.7);
 }
 </style>
 
