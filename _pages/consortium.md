@@ -121,7 +121,7 @@ The consortium includes six academic institutions, one public non-academic resea
 <div class="partner-grid grid-1">
   <div class="partner-card">
     <div class="partner-logo">
-      <img src="{{ '/assets/images/logos/UNIPR.jpg' | relative_url }}" alt="University of Parma (UNIPR)" class="logo-wide">
+      <img src="{{ '/assets/images/logos/UNIPR.jpeg' | relative_url }}" alt="University of Parma (UNIPR)" class="logo-wide">
     </div>
     <p class="partner-title">
       <span class="name">University of Parma</span>
