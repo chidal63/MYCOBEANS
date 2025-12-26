@@ -27,6 +27,12 @@ toc: false
 
 This page collects MYCOBEANS public outputs and project resources. Items are added progressively during the project.
 
+## Featured resource
+**Secondments in MYCOBEANS — experiences and knowledge transfer**  
+A short video documenting representative secondment experiences within the MYCOBEANS project, illustrating interdisciplinary and intersectoral mobility patterns.
+
+▶ Watch on Zenodo: https://doi.org/10.5281/zenodo.18060699
+
 
 ## Publications
 
