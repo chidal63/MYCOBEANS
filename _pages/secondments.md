@@ -1,5 +1,5 @@
 ---
-title: "MYCOBEANS Secondment Plan"
+title: "Secondments"
 permalink: /secondments/
 layout: single
 classes: wide
@@ -25,12 +25,48 @@ toc: false
   margin: 0;
   padding-left: 1.1rem;
 }
-.at-a-glance li{
-  margin: .35rem 0;
-}
+.at-a-glance li{ margin: .35rem 0; }
 .at-a-glance .note{
   margin-top: .8rem;
   font-size: .88rem;
+  color: rgba(0,0,0,.70);
+}
+
+/* Representative examples */
+.examples{
+  margin: 1.4rem 0 0 0;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+@media (max-width: 980px){ .examples{ grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 620px){ .examples{ grid-template-columns: 1fr; } }
+
+.example-card{
+  border: 1px solid rgba(0,0,0,.10);
+  border-radius: 14px;
+  padding: 14px 14px 12px 14px;
+  background: #fff;
+}
+.example-card h4{
+  margin: 0 0 8px 0;
+  font-size: 1.0rem;
+  font-weight: 750;
+}
+.kv{
+  margin: 0 0 10px 0;
+  font-size: .94rem;
+  line-height: 1.35;
+}
+.kv .k{ font-weight: 650; }
+.example-card ul{
+  margin: 0;
+  padding-left: 1.1rem;
+}
+.example-card li{ margin: .25rem 0; }
+.small-note{
+  margin-top: 10px;
+  font-size: .9rem;
   color: rgba(0,0,0,.70);
 }
 </style>
@@ -73,9 +109,62 @@ These organisations act as **bidirectional hubs**, hosting early-career research
     <li><strong>Scientific domains bridged:</strong> analytical chemistry · toxicology · molecular biology · bioinformatics · food science · food processing</li>
     <li><strong>Typical duration:</strong> short-term, objective-driven stays</li>
   </ul>
-  <div class="note">
-    <strong>Mobility volume:</strong> <em>to be added</em> (reported as person-months).
-  </div>
+  <div class="note"><strong>Mobility volume:</strong> <em>to be added</em> (reported as person-months).</div>
 </div>
 
 ---
+
+## Representative examples
+
+<div class="small-note">
+The examples below illustrate representative mobility patterns implemented in MYCOBEANS and are not intended as an exhaustive list of individual secondments.
+</div>
+
+<div class="examples">
+
+  <div class="example-card">
+    <h4>Example 1 — Interdisciplinary mobility</h4>
+    <p class="kv"><span class="k">From → To:</span> University of Parma (IT) → Thammasat University (TH)<br>
+    <span class="k">Career stage:</span> Early-career researcher<br>
+    <span class="k">Typical duration:</span> Short-term</p>
+
+    <p class="kv"><span class="k">Focus:</span> Integrating analytical workflows with occurrence data generated in different contexts.</p>
+
+    <ul>
+      <li>cross-training in methods and interpretation</li>
+      <li>alignment of workflows across institutions</li>
+      <li>contribution to shared consortium practices</li>
+    </ul>
+  </div>
+
+  <div class="example-card">
+    <h4>Example 2 — Applied research hub</h4>
+    <p class="kv"><span class="k">From → To:</span> Universities ↔ NSTDA-BIOTEC (TH)<br>
+    <span class="k">Career stage:</span> Early-career and senior researchers<br>
+    <span class="k">Typical duration:</span> Short- to medium-term</p>
+
+    <p class="kv"><span class="k">Focus:</span> Validation, optimisation and adaptation of methods under operational and regulatory constraints.</p>
+
+    <ul>
+      <li>method validation and workflow optimisation</li>
+      <li>bidirectional knowledge transfer (EU ↔ ASEAN)</li>
+      <li>translation of research into implementable tools</li>
+    </ul>
+  </div>
+
+  <div class="example-card">
+    <h4>Example 3 — Intersectoral technology transfer</h4>
+    <p class="kv"><span class="k">From → To:</span> UNIPR / industrial partner → applied research organisation (TH)<br>
+    <span class="k">Career stage:</span> Early-career (industrial doctorate)<br>
+    <span class="k">Typical duration:</span> Medium-term</p>
+
+    <p class="kv"><span class="k">Focus:</span> Food processing knowledge transferred across academic, applied and industrial environments.</p>
+
+    <ul>
+      <li>integration of processing into applied workflows</li>
+      <li>alignment with industrial constraints</li>
+      <li>consolidation of technology transfer pathways</li>
+    </ul>
+  </div>
+
+</div>
