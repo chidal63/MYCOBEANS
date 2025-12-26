@@ -13,9 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+
 title: "MYCOBEANS"
-url: "https://chidal63.github.io"
-baseurl: "/MYCOBEANS"
+url: "https://www.mycobeans.eu"
+baseurl: ""
 description: "MSCA-SE funded project on emerging mycotoxin risks in beans and legumes."
 masthead_title: "MYCOBEANS"
 title_separator: "-"
