@@ -13,7 +13,7 @@ This page collects MYCOBEANS public outputs and project resources. Items are add
 
 Noppakuadrittidej, P., Waesoh, N., Petchkongkaew, A. et al. Comprehensive Mycotoxin Analysis in Thai Rice: Method Development, Prevalence, Exposure Assessment and Health Risk Evaluation. Expo Health 17, 1337–1356 (2025). https://doi.org/10.1007/s12403-025-00729-w
 
-Malila Y, Owolabi IO, Chotanaphuti T, Sakdibhornssup N, Elliott CT, Visessanguan W, Karoonuthaisiri N, Petchkongkaew A. Current challenges of alternative proteins as future foods. NPJ Sci Food. 2024; 8(1):53. https://doi: 10.1038/s41538-024-00291-w. 
+Malila Y, Owolabi IO, Chotanaphuti T, Sakdibhornssup N, Elliott CT, Visessanguan W, Karoonuthaisiri N, Petchkongkaew A. Current challenges of alternative proteins as future foods. NPJ Sci Food. 2024; 8(1):53. https://doi/10.1038/s41538-024-00291-w. 
 
 
 ## Oral communication at International Conferences
