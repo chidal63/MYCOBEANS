@@ -58,7 +58,7 @@ toc: false
   }
  /* UNIPR logo: larger and better balanced */
  .logo-unipr{
-  transform: scale(1.35);
+  transform: scale(1.6);
  }
   /* name lines */
   .partner-title{
