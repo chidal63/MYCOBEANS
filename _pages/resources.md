@@ -25,10 +25,6 @@ toc: false
 
 This page collects MYCOBEANS public outputs and project resources. Items are added progressively during the project.
 
-## Publications
-...
-
-This page collects MYCOBEANS public outputs and project resources. Items are added progressively during the project.
 
 ## Publications
 
@@ -41,9 +37,13 @@ Malila Y, Owolabi IO, Chotanaphuti T, Sakdibhornssup N, Elliott CT, Visessanguan
 This section lists invited and contributed oral communications at international conferences related to the scientific themes of MYCOBEANS.
 
 C.T. Elliott, Queen’s University Belfast – Delivering sustainable, safe and healthy food: a complex puzzle which needs to be solved. FoodRevolution2024, Parma (October 21 – 23, 2024)
+
 C. Dall’Asta, University of Parma - Improving the safety profile of plant-based meat and milk: What we know and what we still lack. FoodRevolution2024, Parma (October 21 – 23, 2024)
+
 C. Dall’Asta, University of Parma – An holistic safety assessment of plant-based protein sources: where we are and what the MYCOBEANS Alliance can do. RAFA2024, Prague (November 5 – 8, 2024)
+
 N. Karoonuthaisiri, BIOTEC-NSTDA - MYCOSMART: an on-site mycotoxins detection system from the synergy of EU-SE ASIA collaboration. RAFA2024, Prague (November 5 – 8, 2024)
+
 N. Birse, Queen’s University Belfast - Rapid natural toxin testing - EU and SE Asia perspectives. RAFA2024, Prague (November 5 – 8, 2024)
 
 
@@ -69,7 +69,7 @@ For general information, please use the contact details provided on the **Consor
 
 <div class="resources-note">
 
-### About this page
+### About this page ###
 
 This page provides a curated overview of public outputs relevant to the scientific scope of MYCOBEANS.  
 Listed items include peer-reviewed publications, conference contributions and selected supporting materials that are publicly accessible and considered mature for dissemination.
