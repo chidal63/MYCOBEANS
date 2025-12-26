@@ -7,6 +7,27 @@ sidebar: false
 toc: false
 ---
 
+<style>
+.resources-note{
+  margin-top:2.5rem;
+  padding-top:1rem;
+  border-top:1px solid rgba(0,0,0,.08);
+  font-size:0.9rem;
+  line-height:1.4;
+  color:rgba(0,0,0,.7);
+}
+.resources-note h3{
+  font-size:0.95rem;
+  font-weight:600;
+  margin-bottom:0.6rem;
+}
+</style>
+
+This page collects MYCOBEANS public outputs and project resources. Items are added progressively during the project.
+
+## Publications
+...
+
 This page collects MYCOBEANS public outputs and project resources. Items are added progressively during the project.
 
 ## Publications
@@ -46,10 +67,16 @@ The project maintains public repositories to support transparency and reuse.
 For general information, please use the contact details provided on the **Consortium** page.
 
 
+<div class="resources-note">
+
 ### About this page
 
 This page provides a curated overview of public outputs relevant to the scientific scope of MYCOBEANS.  
 Listed items include peer-reviewed publications, conference contributions and selected supporting materials that are publicly accessible and considered mature for dissemination.
+
 Conference presentations and publications are included when they are thematically aligned with the project objectives and involve members of the consortium, regardless of whether they originate directly from secondment activities.
+
 Materials under development, preliminary results and non-public documents are intentionally excluded.  
 This approach ensures clarity, consistency and transparency throughout the duration of the project.
+
+</div>
