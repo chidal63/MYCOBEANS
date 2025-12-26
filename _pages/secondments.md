@@ -8,6 +8,46 @@ toc: false
 ---
 
 <style>
+/* --- Left rail (uses the page’s empty 1/4 column conceptually) --- */
+.rail-layout{
+  display: grid;
+  grid-template-columns: minmax(220px, 1fr) minmax(0, 3fr);
+  gap: 18px;
+  align-items: start;
+  margin-top: 1.2rem;
+}
+@media (max-width: 980px){
+  .rail-layout{ grid-template-columns: 1fr; }
+}
+
+/* Left box */
+.rail-box{
+  border: 1px solid rgba(0,0,0,.10);
+  border-radius: 14px;
+  padding: 14px 14px 12px 14px;
+  background: rgba(0,0,0,.02);
+  position: sticky;
+  top: 1rem;
+}
+@media (max-width: 980px){
+  .rail-box{ position: static; }
+}
+.rail-box h4{
+  margin: 0 0 8px 0;
+  font-size: 1.0rem;
+  font-weight: 700;
+}
+.rail-box p{
+  margin: 0 0 8px 0;
+  font-size: .95rem;
+  line-height: 1.4;
+}
+.rail-box a{ font-weight: 650; }
+.rail-note{
+  font-size: .85rem;
+  color: rgba(0,0,0,.70);
+}
+
 /* At-a-glance summary box */
 .at-a-glance{
   margin: 1.8rem 0 2.2rem 0;
@@ -33,8 +73,15 @@ toc: false
 }
 
 /* Representative examples */
+.small-note{
+  margin-top: 10px;
+  font-size: .9rem;
+  color: rgba(0,0,0,.70);
+}
+
+/* Examples grid (full-width within the 3/4 content column) */
 .examples{
-  margin: 1.4rem 0 0 0;
+  margin: 1.0rem 0 0 0;
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 16px;
@@ -52,95 +99,46 @@ toc: false
   margin: 0 0 8px 0;
   font-size: 1.0rem;
   font-weight: 750;
+  min-height: 2.4em; /* aligns titles across cards */
 }
 .kv{
-  margin: 0 0 10px 0;
+  margin: 0 0 8px 0;
   font-size: .94rem;
   line-height: 1.35;
-}
-.kv .k{ font-weight: 650; }
-.example-card ul{
-  margin: 0;
-  padding-left: 1.1rem;
-}
-.example-card li{ margin: .25rem 0; }
-.small-note{
-  margin-top: 10px;
-  font-size: .9rem;
-  color: rgba(0,0,0,.70);
-}
-  /* Improve rhythm inside example cards */
-.example-card .kv{
-  margin-bottom: 8px;
   color: rgba(0,0,0,.80);
 }
-
-.example-card .kv .k{
+.kv .k{
   font-weight: 600;
   color: rgba(0,0,0,.85);
 }
+.example-card .kv + .kv{ margin-top: 6px; }
 
-/* Focus line slightly separated */
-.example-card .kv + .kv{
-  margin-top: 6px;
-}
-
-/* Outcomes list cleaner */
 .example-card ul{
-  margin-top: 6px;
+  margin: 6px 0 0 0;
+  padding-left: 1.1rem;
 }
-.example-card li{
-  margin: .22rem 0;
-}
-
-/* Card titles aligned */
-.example-card h4{
-  min-height: 2.4em; /* forces visual alignment across cards */
-}
-  /* Two-column layout for examples + side box */
-.side-layout{
-  display: grid;
-  grid-template-columns: 280px 1fr;
-  gap: 18px;
-  margin-top: 1.4rem;
-}
-
-/* Side box */
-.side-box{
-  border: 1px solid rgba(0,0,0,.10);
-  border-radius: 14px;
-  padding: 14px 14px 12px 14px;
-  background: rgba(0,0,0,.02);
-}
-
-.side-box h4{
-  margin: 0 0 8px 0;
-  font-size: 1.0rem;
-  font-weight: 700;
-}
-
-.side-box p{
-  margin: 0 0 8px 0;
-  font-size: .95rem;
-  line-height: 1.4;
-}
-
-.side-box a{
-  font-weight: 600;
-}
-
-.side-note{
-  font-size: .85rem;
-  color: rgba(0,0,0,.70);
-}
-
-/* Responsive fallback */
-@media (max-width: 980px){
-  .side-layout{
-    grid-template-columns: 1fr;
-  }
-}
+.example-card li{ margin: .22rem 0; }
 </style>
+
+<div class="rail-layout">
+
+  <aside class="rail-box">
+    <h4>Hear from our secondees</h4>
+    <p>
+      Short testimonies from researchers involved in MYCOBEANS secondments,
+      describing interdisciplinary and intersectoral mobility experiences.
+    </p>
+    <p>
+      <a href="ZENODO_LINK_HERE" target="_blank" rel="noopener">
+        Watch the video on Zenodo →
+      </a>
+    </p>
+    <p class="rail-note">
+      The video is hosted on Zenodo as a public project resource.
+    </p>
+  </aside>
+
+  <div>
 
 ## Mobility patterns
 
@@ -198,9 +196,7 @@ The examples below illustrate representative mobility patterns implemented in MY
     <p class="kv"><span class="k">From → To:</span> University of Parma (IT) → Thammasat University (TH)<br>
     <span class="k">Career stage:</span> Early-career researcher<br>
     <span class="k">Typical duration:</span> Short-term</p>
-
     <p class="kv"><span class="k">Focus:</span> Integrating analytical workflows with occurrence data generated in different contexts.</p>
-
     <ul>
       <li>cross-training in methods and interpretation</li>
       <li>alignment of workflows across institutions</li>
@@ -213,9 +209,7 @@ The examples below illustrate representative mobility patterns implemented in MY
     <p class="kv"><span class="k">From → To:</span> Universities ↔ NSTDA-BIOTEC (TH)<br>
     <span class="k">Career stage:</span> Early-career and senior researchers<br>
     <span class="k">Typical duration:</span> Short- to medium-term</p>
-
     <p class="kv"><span class="k">Focus:</span> Validation, optimisation and adaptation of methods under operational and regulatory constraints.</p>
-
     <ul>
       <li>method validation and workflow optimisation</li>
       <li>bidirectional knowledge transfer (EU ↔ ASEAN)</li>
@@ -223,37 +217,12 @@ The examples below illustrate representative mobility patterns implemented in MY
     </ul>
   </div>
 
-<div class="side-layout">
-
-  <div class="side-box">
-    <h4>Hear from our secondees</h4>
-    <p>
-      Short testimonies from researchers involved in MYCOBEANS secondments,
-      describing interdisciplinary and intersectoral mobility experiences.
-    </p>
-    <p>
-      <a href="ZENODO_LINK_HERE" target="_blank" rel="noopener">
-        Watch the video on Zenodo →
-      </a>
-    </p>
-    <p class="side-note">
-      The video is hosted on Zenodo as a public project resource.
-    </p>
-  </div>
-
-  <div class="examples">
-    <!-- le tre example-card che hai già -->
-  </div>
-
-</div>
   <div class="example-card">
     <h4>Example 3 — Intersectoral technology transfer</h4>
     <p class="kv"><span class="k">From → To:</span> UNIPR / industrial partner → applied research organisation (TH)<br>
     <span class="k">Career stage:</span> Early-career (industrial doctorate)<br>
     <span class="k">Typical duration:</span> Medium-term</p>
-
     <p class="kv"><span class="k">Focus:</span> Food processing knowledge transferred across academic, applied and industrial environments.</p>
-
     <ul>
       <li>integration of processing into applied workflows</li>
       <li>alignment with industrial constraints</li>
@@ -261,4 +230,7 @@ The examples below illustrate representative mobility patterns implemented in MY
     </ul>
   </div>
 
+</div>
+
+  </div>
 </div>
