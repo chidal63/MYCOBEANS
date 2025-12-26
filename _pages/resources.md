@@ -61,11 +61,10 @@ N. Birse, Queen’s University Belfast - Rapid natural toxin testing - EU and SE
 
 
 ## Open repositories
+Public project resources are archived in the **MYCOBEANS Zenodo community**, which serves as the stable and citable repository for videos, posters, presentations and other dissemination materials produced within the project.
 
-The project maintains public repositories to support transparency and reuse.
-
-- **MYCOBEANS GitHub organisation / repositories:** *to be populated during the project*  
-  (Links will be provided as repositories become available.)
+▶ MYCOBEANS Zenodo community:  
+https://zenodo.org/communities/mycobeans/records
 
 ## Protocols and supporting material
 *Selected protocols, workflows, or supporting documents will be listed here when suitable for public release.*
