@@ -30,10 +30,11 @@ This website is a public information site for the MYCOBEANS project and is hoste
 
 This website does not intentionally collect personal data from visitors.
 
-- **Hosting:** The site is hosted on GitHub Pages. GitHub may process technical data (e.g., IP address and standard server logs) to deliver the service.
-- **Cookies:** No cookies are set by this website for tracking purposes.
-- **Analytics:** GoatCounter, a privacy-friendly and cookieless analytics service, to collect aggregated usage statistics (e.g. page views and referrers). 
-No personal data are collected, and no tracking cookies are set.
-- **Contact:** If you contact us by email, your message and address will be processed only to respond to your request.
+**- Hosting** The site is hosted on GitHub Pages. GitHub may process technical data (e.g. IP address and standard server logs) to deliver the service.
+**- Cookies** No cookies are set by this website for tracking purposes.
+**- Analytics** This website uses GoatCounter, a privacy-friendly and cookieless analytics service, to collect aggregated usage statistics (e.g. page views and referrers). No personal data are collected, and no tracking cookies are set.
+**- External resources** This website contains links to external resources hosted on third-party platforms (e.g. Zenodo). Accessing these resources may be subject to the privacy policies of the respective platforms.
 
+**Contact**
+If you contact us by email, your message and address will be processed solely to respond to your request.
 For questions about this notice, please use the contact details on the **Contact** page.
