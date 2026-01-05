@@ -23,6 +23,7 @@ MYCOBEANS activities comply with applicable ethical standards and data protectio
 ## Imprint
 
 This website is a public information site for the MYCOBEANS project and is hosted using GitHub Pages.
+If you contact us by email, your message and address will be processed solely to respond to your request.
 
 **Project:** MYCOBEANS (MSCA Staff Exchange)  
 **Coordinating institution:** University of Parma (UNIPR), Italy
