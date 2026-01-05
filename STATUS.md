@@ -1,6 +1,6 @@
 # MYCOBEANS website — STATUS FREEZE
 
-Last update: 2026-02-XX
+Last update: 2026-01-05
 
 ## Scope and purpose
 Public website and repository ecosystem for the MYCOBEANS project (Marie Skłodowska-Curie Staff Exchange).
@@ -29,6 +29,12 @@ Analytics:
 - GoatCounter (privacy-friendly, cookieless)
 - No Google Analytics
 - No tracking cookies set by the website
+
+Email:
+- Project mailbox active: **info@mycobeans.eu**
+- Hosted on Zoho Mail
+- SPF, DKIM and DMARC correctly configured
+- No forwarding-dependent setup
 
 ---
 
@@ -61,9 +67,12 @@ Analytics:
   → representative, non-exhaustive examples  
   → no individual-level storytelling
 - Contact  
-  → standalone page, no forms, no personal emails exposed
+  → standalone page  
+  → project email published (**info@mycobeans.eu**)  
+  → no forms, no personal emails exposed
 - Privacy & Imprint  
-  → minimal, GDPR-safe, updated for GoatCounter and external resources
+  → minimal, GDPR-safe  
+  → updated for GoatCounter, external resources and email contact
 
 ---
 
@@ -122,7 +131,7 @@ The website links to Zenodo records and community but does not host files direct
 ## Current status
 The MYCOBEANS website and Zenodo community are **live, stable and governance-compliant**.
 
-Core web content, privacy, compliance, and repository infrastructure are complete.  
+Core web content, privacy, compliance, email infrastructure and repository setup are complete.  
 Dissemination activities are paused intentionally pending availability of **quality-assured, non-confidential materials**.
 
 The next development phase will resume from:
