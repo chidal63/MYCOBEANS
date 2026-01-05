@@ -11,7 +11,8 @@ For general information about MYCOBEANS, please contact the coordinating institu
 
 **University of Parma (UNIPR)**  
 Project coordination team — MYCOBEANS  
-Email: **[INSERT PROJECT EMAIL]**
+**Email:** info@mycobeans.eu  
+(For general project-related enquiries)
 
 If your request is related to a specific partner, please refer to the **Consortium** page for local contacts.
 
