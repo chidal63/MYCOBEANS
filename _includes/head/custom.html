@@ -245,6 +245,27 @@
       max-width: 520px;
     }
   }
+  /* =========================
+   MAIN CONTENT TYPOGRAPHY
+   ========================= */
+
+/* Justify main body text */
+.page__content p,
+.page__content li,
+.page__content blockquote {
+  text-align: justify;
+  hyphens: auto;
+}
+
+/* Keep UI blocks/cards readable (no justification) */
+.partner-card p, .partner-card li,
+.example-card p, .example-card li,
+.event-row p, .event-row li,
+.resources-note p, .resources-note li,
+.at-a-glance p, .at-a-glance li {
+  text-align: left;
+  hyphens: none;
+}
   /* Smaller secondary figures (e.g. Key facts) */
 .figure-small img {
   max-width: 70%;   /* ≈ 30% smaller */
@@ -364,11 +385,14 @@
   text-underline-offset: 2px;
 }
 
+/* Subtle hover on desktop */
+.event-row:hover{ background: rgba(0,0,0,.015); }
+
 /* Mobile: stack text over image */
 @media (max-width: 900px){
   .event-row{
     grid-template-columns: 1fr;
-    gap: 14px;                              /* meno spazio su mobile */
+    gap: 14px;
   }
 
   .event-row__media{
@@ -381,9 +405,7 @@
   }
 
   .event-row__excerpt{
-    max-width: none;                        /* piena larghezza su mobile */
-  }
-    .event-row:hover{ background: rgba(0,0,0,.015); }
+    max-width: none;
   }
 }
 </style>
