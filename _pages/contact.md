@@ -1,4 +1,11 @@
-# Contact
+---
+title: "Contact"
+permalink: /contact/
+layout: single
+classes: wide
+sidebar: false
+toc: false
+---
 
 For general information about MYCOBEANS, please contact the coordinating institution.
 
