@@ -21,9 +21,6 @@ No personal data are collected through this website. Personal data provided by e
 
 This website is a public information site for the MYCOBEANS project and is hosted using GitHub Pages.
 
-**Project:** MYCOBEANS (Marie Skłodowska-Curie Actions — Staff Exchange)  
-**Coordinating institution:** University of Parma (UNIPR), Italy
-
 ---
 
 ## Privacy
