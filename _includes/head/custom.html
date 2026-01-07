@@ -3,9 +3,9 @@
      MASTHEAD (Header)
      ========================= */
 
- .masthead-simple {
+  .masthead-simple {
     position: relative;
-    background-color: rgba(0,0,0,0.03);   /* stesso “grigio aria” del footer */
+    background-color: rgba(0,0,0,0.03);
     border-bottom: 1px solid rgba(0,0,0,.12);
     padding: 14px 20px;
   }
@@ -17,15 +17,15 @@
     gap: 12px;
   }
 
-  /* LEFT: spacer only (keeps the center truly centered) */
- .masthead-simple__side--left {
-  width: 240px;       /* must match right side width */
-  min-width: 240px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 12px;
-}
+  /* LEFT: spacer + (optional MSCA logo) */
+  .masthead-simple__side--left {
+    width: 280px;          /* must match right side width */
+    min-width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+  }
 
   /* CENTER: logo-as-title */
   .masthead-simple__center {
@@ -37,7 +37,7 @@
 
   /* MYCOBEANS logo (acts as title) */
   .masthead-simple__brand-logo {
-    height: 130px;   /* ↑ centrale più grande */
+    height: 130px;         /* central logo */
     width: auto;
     display: block;
   }
@@ -47,24 +47,24 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    gap: 12px;
-    width: 240px;
-    min-width: 240px;
+    gap: 18px;             /* ↑ more air between EU and toggle */
+    width: 280px;          /* ↑ more room */
+    min-width: 280px;
   }
 
   /* EU logo in header */
   .masthead-simple__logo--eu {
-    height: 94px;    /* ↑ laterale */
+    height: 94px;
     width: auto;
     display: block;
   }
 
   /* MSCA logo in header (left) */
-.masthead-simple__logo--msca{
-  height: 86px;    /* ↑ laterale */
-  width: auto;
-  display: block;
-}
+  .masthead-simple__logo--msca {
+    height: 86px;
+    width: auto;
+    display: block;
+  }
 
   /* Toggle menu (checkbox hack) */
   .nav-toggle {
@@ -76,7 +76,7 @@
     cursor: pointer;
     user-select: none;
     font-size: 1.6rem;
-    padding: 10px 14px;        /* bigger hit area = more sensitive */
+    padding: 8px 12px;      /* ↓ slightly tighter so EU never “kisses” it */
     border: 1px solid rgba(0,0,0,.25);
     border-radius: 10px;
     line-height: 1;
@@ -116,37 +116,28 @@
 
   /* Small screens */
   @media (max-width: 520px) {
-   .masthead-simple__side--left {
-  width: 200px;       /* must match right side width on mobile */
-  min-width: 200px;
-}
-
-    .masthead-simple__side--right {
-      width: 200px;
-      min-width: 200px;
+    .masthead-simple__side--left {
+      width: 230px;         /* must match right side width on mobile */
+      min-width: 230px;
       gap: 10px;
     }
 
-    .masthead-simple__brand-logo { height: 70px; }  /* centrale */
-    .masthead-simple__logo--eu   { height: 56px; }  /* laterale */
-    .masthead-simple__logo--msca { height: 48px; }  /* laterale */
+    .masthead-simple__side--right {
+      width: 230px;
+      min-width: 230px;
+      gap: 14px;            /* ↑ extra air between EU and toggle */
+    }
+
+    .masthead-simple__brand-logo { height: 70px; }
+    .masthead-simple__logo--eu   { height: 56px; }
+    .masthead-simple__logo--msca { height: 48px; }
 
     .masthead-simple__nav {
       right: 12px;
       min-width: 200px;
     }
   }
-
-  /* Home only: add breathing room under header */
-.landing .initial-content {
-  padding-top: 18px;
-}
-/* Justified body text (cleaner for scientific pages) */
-.page__content p,
-.page__content li {
-  text-align: justify;
-  hyphens: auto;
-}
+</style>
   /* =========================
      FUNDERS FOOTER (EU / MSCA / UKRI)
      ========================= */
