@@ -1,27 +1,54 @@
 # Minimal Mistakes remote theme starter
+# MYCOBEANS website (GitHub Pages)
 
-Click [**Use this template**](https://github.com/mmistakes/mm-github-pages-starter/generate) button above for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
+This repository hosts the public website for **MYCOBEANS** (Marie Skłodowska-Curie Actions — Staff Exchange).
 
-Contains basic configuration to get you a site with:
+Live site: **https://www.mycobeans.eu/**
 
-- Sample posts.
-- Sample top navigation.
-- Sample author sidebar with social links.
-- Sample footer links.
-- Paginated home page.
-- Archive pages for posts grouped by year, category, and tag.
-- Sample about page.
-- Sample 404 page.
-- Site wide search.
+## Scope
+The website is a **project showcase and transparency tool**.
+It is not intended as a stakeholder engagement platform and does not implement marketing features (no newsletter, no user profiling).
 
-Replace sample content with your own and [configure as necessary](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
+Primary functions:
+- public visibility of the project
+- clarity of objectives, structure and consortium roles
+- audit- and review-proof dissemination
 
----
+## Technology
+- GitHub Pages
+- Jekyll (Minimal Mistakes theme, remote theme)
+- Static site (no backend)
 
-## Troubleshooting
+## Analytics
+The site uses **GoatCounter** (privacy-friendly, cookieless) for aggregated traffic statistics.  
+No Google Analytics and no tracking cookies set by the website.
 
-If you have a question about using Jekyll, start a discussion on the [Jekyll Forum](https://talk.jekyllrb.com/) or [StackOverflow](https://stackoverflow.com/questions/tagged/jekyll). Other resources:
+## Updates policy (SITE FREEZE)
+The site is under a **structure freeze**.
 
-- [Ruby 101](https://jekyllrb.com/docs/ruby-101/)
-- [Setting up a Jekyll site with GitHub Pages](https://jekyllrb.com/docs/github-pages/)
-- [Configuring GitHub Metadata](https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration) to work properly when developing locally and avoid `No GitHub API authentication could be found. Some fields may be missing or have incorrect data.` warnings.
+Allowed changes (content-only):
+- new posts under **Events**
+- updates to **Resources** (e.g., adding new Zenodo DOIs and publications)
+- minor typo fixes
+
+Not allowed without explicit unfreeze:
+- layout or navigation restructuring
+- global CSS refactors (e.g., `head/custom.html`)
+- theme changes or major visual redesign
+
+If structural updates become necessary, create a dedicated commit explicitly stating:
+`Unfreeze site for structural update`
+
+## Repository structure (high level)
+- `_pages/` — site pages
+- `_posts/` — events/news posts
+- `assets/` — images, logos, CSS assets
+- `_includes/` — header/footer customizations
+
+## Canonical repository for public outputs
+Public dissemination materials (videos, posters, slides, datasets) are archived in the **MYCOBEANS Zenodo community** and linked from the website.
+
+## Contact
+Project mailbox: **info@mycobeans.eu**
+
+Current freeze status: see status.md
