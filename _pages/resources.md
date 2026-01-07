@@ -19,34 +19,16 @@ toc: false
 .page__content ol{
   text-align: justify;
 }
-
-/* About-this-page note (smaller + lighter, but still justified) */
-.resources-note{
-  margin-top:2.5rem;
-  padding-top:1rem;
-  border-top:1px solid rgba(0,0,0,.08);
-  font-size:0.82rem;
-  line-height:1.45;
-  color:rgba(0,0,0,.65);
-  text-align: justify;
-}
-
-.resources-note h3{
-  font-size:0.85rem;
-  font-weight:600;
-  margin:0 0 0.6rem 0;
-  color:rgba(0,0,0,.7);
-}
 </style>
 
 This page collects MYCOBEANS public outputs and project resources. Items are added progressively during the project.
 
-## Featured resource
-
-**Secondments in MYCOBEANS — experiences and knowledge transfer**  
-A short video documenting representative secondment experiences within the MYCOBEANS project, illustrating interdisciplinary and intersectoral mobility patterns.
-
-▶ Watch on Zenodo: [https://doi.org/10.5281/zenodo.18060699](https://doi.org/10.5281/zenodo.18060699)
+<div class="info-box">
+  <h3>Featured resource</h3>
+  <p><strong>Secondments in MYCOBEANS — experiences and knowledge transfer</strong><br>
+  A short video documenting representative secondment experiences within the MYCOBEANS project.</p>
+  <p class="meta">Watch on Zenodo: <a href="https://doi.org/10.5281/zenodo.18060699" target="_blank" rel="noopener">10.5281/zenodo.18060699</a></p>
+</div>
 
 ## Publications
 
@@ -70,12 +52,11 @@ This section lists invited and contributed oral communications at international 
 
 *To be added.*
 
-## Open repositories
-
-Public project resources are archived in the **MYCOBEANS Zenodo community**, which serves as the stable and citable repository for videos, posters, presentations and other dissemination materials produced within the project.
-
-▶ MYCOBEANS Zenodo community:  
-[https://zenodo.org/communities/mycobeans/records](https://zenodo.org/communities/mycobeans/records)
+<div class="info-box">
+  <h3>Open repository</h3>
+  <p>Public project resources are archived in the <strong>MYCOBEANS Zenodo community</strong> (canonical repository for videos, posters, presentations and other dissemination materials).</p>
+  <p class="meta"><a href="https://zenodo.org/communities/mycobeans/records" target="_blank" rel="noopener">Browse the MYCOBEANS Zenodo community →</a></p>
+</div>
 
 ## Protocols and supporting material
 
@@ -85,14 +66,9 @@ Public project resources are archived in the **MYCOBEANS Zenodo community**, whi
 
 For general information, please use the contact details provided on the **Consortium** page.
 
-<div class="resources-note">
-<h3>About this page</h3>
-
-This page provides a curated overview of public outputs relevant to the scientific scope of MYCOBEANS.  
-Listed items include peer-reviewed publications, conference contributions and selected supporting materials that are publicly accessible and considered mature for dissemination.
-
-Conference presentations and publications are included when they are thematically aligned with the project objectives and involve members of the consortium, regardless of whether they originate directly from secondment activities.
-
-Materials under development, preliminary results and non-public documents are intentionally excluded.  
-This approach ensures clarity, consistency and transparency throughout the duration of the project.
+<div class="info-box">
+  <h3>About this page</h3>
+  <p>This page provides a curated overview of public outputs relevant to the scientific scope of MYCOBEANS. Listed items include peer-reviewed publications, conference contributions and selected supporting materials that are publicly accessible and considered mature for dissemination.</p>
+  <p>Conference presentations and publications are included when they are thematically aligned with the project objectives and involve members of the consortium, regardless of whether they originate directly from secondment activities.</p>
+  <p>Materials under development, preliminary results and non-public documents are intentionally excluded to ensure clarity, consistency and transparency throughout the duration of the project.</p>
 </div>
