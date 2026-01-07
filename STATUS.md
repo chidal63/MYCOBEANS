@@ -1,6 +1,6 @@
 # MYCOBEANS website — STATUS FREEZE
 
-Last update: 2026-02-XX
+Last update: 2026-01-07
 
 ## Scope and purpose
 Public website and repository ecosystem for the MYCOBEANS project (Marie Skłodowska-Curie Staff Exchange).
