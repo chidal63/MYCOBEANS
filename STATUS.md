@@ -143,3 +143,7 @@ The MYCOBEANS website and Zenodo community are **live, stable and governance-com
 
 Core web content, visual hierarchy, privacy, compliance, email infrastructure and repository setup are complete.  
 The site is now in **maintenance mode**, with future changes restricted to content updates only.
+
+Freeze site structure and content; future updates limited to news and resources
+Site architecture, layout, and core content are considered final.
+Subsequent commits should only include new Events posts or updates to Resources (e.g. new DOIs).
