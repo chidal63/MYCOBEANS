@@ -21,7 +21,7 @@ toc: false
 }
 </style>
 
-This page collects MYCOBEANS public outputs and project resources. Items are added progressively during the project.
+This page provides access to public outputs and selected resources produced within the MYCOBEANS project.
 
 <div class="info-box">
   <h3>Featured resource</h3>
@@ -48,9 +48,9 @@ This page collects MYCOBEANS public outputs and project resources. Items are add
 2. Malila, Y., Owolabi, I.O., Chotanaphuti, T., Sakdibhornssup, N., Elliott, C.T., Visessanguan, W., Karoonuthaisiri, N., Petchkongkaew, A. (2024). **Current challenges of alternative proteins as future foods.** *npj Science of Food*, 8, 53.  
    DOI: <a href="https://doi.org/10.1038/s41538-024-00291-w" target="_blank" rel="noopener">10.1038/s41538-024-00291-w</a>
 
-## Oral communications at international conferences
+## Invited communications at international conferences
 
-This section lists invited and contributed oral communications aligned with the scientific themes of MYCOBEANS.
+Invited contributed oral communications at international conferences related to the scientific scope of MYCOBEANS.
 
 - **C.T. Elliott** (Queen’s University Belfast) — *Delivering sustainable, safe and healthy food: a complex puzzle which needs to be solved.* FoodRevolution2024, Parma (21–23 October 2024)
 - **C. Dall’Asta** (University of Parma) — *Improving the safety profile of plant-based meat and milk: what we know and what we still lack.* FoodRevolution2024, Parma (21–23 October 2024)
@@ -64,7 +64,7 @@ Items will be added as soon as public versions are available and archived on Zen
 
 <div class="info-box">
   <h3>Open repository</h3>
-  <p>Public project resources are archived in the <strong>MYCOBEANS Zenodo community</strong> (canonical repository for videos, posters, presentations and other dissemination materials).</p>
+  <p>All public project resources are archived in the MYCOBEANS Zenodo community, which serves as the canonical repository for dissemination materials.</p>
   <p class="meta"><a href="https://zenodo.org/communities/mycobeans/records" target="_blank" rel="noopener">Browse the MYCOBEANS Zenodo community →</a></p>
 </div>
 
@@ -78,7 +78,6 @@ For general information, please use the contact details provided on the **Contac
 
 <div class="info-box">
   <h3>About this page</h3>
-  <p>This page provides a curated overview of public outputs relevant to the scientific scope of MYCOBEANS. Listed items include peer-reviewed publications, conference contributions and selected supporting materials that are publicly accessible and considered mature for dissemination.</p>
-  <p>Conference presentations and publications are included when they are thematically aligned with the project objectives and involve members of the consortium, regardless of whether they originate directly from secondment activities.</p>
-  <p>Materials under development, preliminary results and non-public documents are intentionally excluded to ensure clarity, consistency and transparency throughout the duration of the project.</p>
+  <p>This page provides a curated overview of public outputs relevant to the scientific scope of MYCOBEANS.
+Only materials that are publicly accessible and considered mature for dissemination are included. Preliminary results, draft materials and non-public documents are intentionally excluded.</p>
 </div>
