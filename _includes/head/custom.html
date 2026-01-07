@@ -407,6 +407,67 @@
   .event-row__excerpt{
     max-width: none;
   }
+  /* =========================
+   CONSORTIUM – card alignment polish
+   ========================= */
+
+/* Make grids behave: equal-height cards */
+.partner-grid{
+  align-items: stretch;
+}
+
+/* Card becomes a vertical layout so footer/contact can stick to bottom */
+.partner-card{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* Keep logo area consistent */
+.partner-logo{
+  flex: 0 0 auto;
+  min-height: 120px;          /* slightly more stable */
+}
+
+/* Title block: keep consistent spacing */
+.partner-title{
+  flex: 0 0 auto;
+  margin: 0 0 8px 0;
+}
+
+/* Description grows and fills available space */
+.partner-desc{
+  flex: 1 1 auto;
+  margin: 0;
+}
+
+/* PI / Industry contact always at bottom */
+.partner-contact,
+.partner-pi{
+  flex: 0 0 auto;
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(0,0,0,.08);
+  font-size: 0.85rem;
+  line-height: 1.25;
+  color: rgba(0,0,0,.70);
+}
+
+/* Label + name: slightly lighter */
+.partner-contact .label,
+.partner-pi strong{
+  font-weight: 600;
+  color: rgba(0,0,0,.78);
+}
+
+/* Improve long names: avoid weird overflow */
+.partner-title .name{
+  white-space: normal;        /* allow wrapping if needed */
+}
+
+/* Optional: keep meta on one line */
+.partner-title .meta{
+  white-space: nowrap;
 }
 </style>
 
