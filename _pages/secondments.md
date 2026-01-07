@@ -232,5 +232,4 @@ The examples below illustrate typical mobility patterns implemented in MYCOBEANS
   </p>
   <div class="video-note">
     The video is archived on Zenodo as a public project resource.
-  </div>
 </div>
