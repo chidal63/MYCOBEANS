@@ -37,7 +37,7 @@
 
   /* MYCOBEANS logo (acts as title) */
   .masthead-simple__brand-logo {
-    height: 110px;   /* ↑ centrale più grande */
+    height: 130px;   /* ↑ centrale più grande */
     width: auto;
     display: block;
   }
@@ -54,22 +54,18 @@
 
   /* EU logo in header */
   .masthead-simple__logo--eu {
-    height: 86px;    /* ↑ laterale */
+    height: 94px;    /* ↑ laterale */
     width: auto;
     display: block;
   }
 
   /* MSCA logo in header (left) */
 .masthead-simple__logo--msca{
-  height: 74px;    /* ↑ laterale */
+  height: 86px;    /* ↑ laterale */
   width: auto;
   display: block;
 }
-@media (max-width: 520px){
-  .masthead-simple__logo--msca{
-    height: 40px;
-  }
-}
+
   /* Toggle menu (checkbox hack) */
   .nav-toggle {
     position: absolute;
@@ -131,13 +127,9 @@
       gap: 10px;
     }
 
-    .masthead-simple__brand-logo {
-      height: 50px;
-    }
-
-    .masthead-simple__logo--eu {
-      height: 46px;
-    }
+    .masthead-simple__brand-logo { height: 70px; }  /* centrale */
+    .masthead-simple__logo--eu   { height: 56px; }  /* laterale */
+    .masthead-simple__logo--msca { height: 48px; }  /* laterale */
 
     .masthead-simple__nav {
       right: 12px;
