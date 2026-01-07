@@ -215,8 +215,6 @@ The examples below illustrate typical mobility patterns implemented in MYCOBEANS
 
 </div>
 
-</div>
-
 ---
 
 <div class="video-box">
