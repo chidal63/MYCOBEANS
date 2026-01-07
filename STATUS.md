@@ -3,7 +3,7 @@
 Last update: 2026-01-07
 
 ## Scope and purpose
-Public website and repository ecosystem for the MYCOBEANS project (Marie Skłodowska-Curie Staff Exchange).
+Public website and repository ecosystem for the MYCOBEANS project (Marie Skłodowska-Curie Actions — Staff Exchange).
 
 The website and associated repositories serve as **project showcase and transparency tools**, not as stakeholder engagement or communication platforms.
 No marketing funnel, no newsletter, no user profiling.
@@ -41,7 +41,7 @@ Email:
 ## Pages — COMPLETED
 - Home  
   → institutional landing page with clear MSCA Staff Exchange framing  
-  → “above the fold” layout tightened for readability
+  → above-the-fold layout refined for readability and hierarchy
 - The Project  
   → concise, mobility-centred narrative aligned with Staff Exchange objectives
 - Objectives  
@@ -52,23 +52,23 @@ Email:
   → UNIPR and NSTDA-BIOTEC displayed as full-width single cards  
   → coordinating institution visually emphasised  
   → PI/contact information visually subordinate to institutions  
-  → grid/card vertical alignment stabilised via flex layout
+  → card height and vertical alignment stabilised
 - Events  
   → working listing page  
-  → refined two-column rows layout + responsive behaviour  
+  → refined two-column layout with responsive behaviour  
   → standardised post template for meetings, workshops and project activities
-- Resources  
-  → structured page for public outputs  
-  → publications + oral communications reformatted as clean lists  
-  → featured resource (video) linked via DOI and contextualised in Zenodo governance  
-  → Zenodo community linked as canonical repository  
-  → “About this page” governance note present but visually subordinate  
-  → consistent `info-box` styling applied
 - Secondments  
   → structured overview of mobility patterns (interdisciplinary, intersectoral, applied research)  
   → “At a glance” summary block  
-  → representative, non-exhaustive examples  
+  → representative, non-exhaustive examples expressed as typological patterns  
   → no individual-level storytelling
+- Resources  
+  → structured index of public outputs  
+  → clear L1/L2/L3 typographic hierarchy  
+  → featured resource (video) linked via DOI  
+  → publications and invited communications listed  
+  → Zenodo community linked as canonical repository  
+  → governance criteria stated once and concisely
 - Contact  
   → standalone page  
   → project email published (**info@mycobeans.eu**)  
@@ -81,13 +81,15 @@ Email:
 
 ## Repository & dissemination infrastructure — COMPLETED
 - **Zenodo community created:** MYCOBEANS  
+  → identifier: `mycobeans`  
   → review required enabled  
-  → governance pages (About, Curation policy) completed  
+  → About page and Curation policy completed  
   → EU funding disclaimer included
 - **Zenodo records published (DOIs assigned):**
   - Video: secondments experiences and knowledge transfer
   - Poster: PSU → UNIPR secondment output
   - Workshop (programme only): nanopore sequencing training (v1)
+  - Additional dissemination and data records managed via Zenodo
 
 Zenodo is established as the **canonical repository** for public project resources.  
 The website links to Zenodo records and community but does not host files directly.
@@ -127,16 +129,17 @@ The website links to Zenodo records and community but does not host files direct
 
 ---
 
-## Deferred / next steps
-- Publish additional Zenodo records (workshops, posters, slides) once **public/non-confidential** versions are available
-- Lightweight updates to **Resources** as new Zenodo records go live
-- Optional: one-page PDF project overview (only when content stabilises)
-- Optional: further accessibility fine-tuning (contrast checks, aria labels if needed)
+## Future updates (content-only)
+From this freeze onward, updates are limited to:
+- new **Events** posts (meetings, workshops, milestones)
+- additions to **Resources** (new Zenodo DOIs, accepted publications)
+
+No further structural, layout or CSS changes are planned.
 
 ---
 
 ## Current status
 The MYCOBEANS website and Zenodo community are **live, stable and governance-compliant**.
 
-Core web content, privacy, compliance, email infrastructure and repository setup are complete.  
-Dissemination outputs will expand via Zenodo as quality-assured public materials become available.
+Core web content, visual hierarchy, privacy, compliance, email infrastructure and repository setup are complete.  
+The site is now in **maintenance mode**, with future changes restricted to content updates only.
