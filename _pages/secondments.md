@@ -156,46 +156,64 @@ These organisations act as **bidirectional hubs**, hosting early-career research
 
 ## Representative examples
 
+<p class="small-note">
+The examples below illustrate typical mobility patterns implemented in MYCOBEANS. They are intended as representative scenarios and do not correspond to individual or exhaustive secondment cases.
+</p>
+
 <div class="examples">
 
   <div class="example-card">
     <h4>Interdisciplinary mobility</h4>
-    <p class="kv"><span class="k">From → To:</span> University of Parma (IT) → Thammasat University (TH)<br>
-    <span class="k">Career stage:</span> Early-career researcher<br>
-    <span class="k">Typical duration:</span> Short-term</p>
-    <p class="kv"><span class="k">Focus:</span> Integrating analytical workflows with occurrence data generated in different contexts.</p>
+    <p class="kv">
+      <span class="k">From → To:</span> Academic institution → Academic institution (international)<br>
+      <span class="k">Career stage:</span> Early-career researchers<br>
+      <span class="k">Typical duration:</span> Short-term
+    </p>
+    <p class="kv">
+      <span class="k">Focus:</span> Methodological integration of analytical workflows and occurrence data across scientific and geographical contexts.
+    </p>
     <ul>
-      <li>cross-training in methods and interpretation</li>
-      <li>alignment of workflows across institutions</li>
-      <li>shared consortium practices</li>
+      <li>interdisciplinary capacity building</li>
+      <li>alignment of analytical and interpretative approaches</li>
+      <li>development of shared methodological practices</li>
     </ul>
   </div>
 
   <div class="example-card">
-    <h4>Applied research hub</h4>
-    <p class="kv"><span class="k">From → To:</span> Universities ↔ NSTDA-BIOTEC (TH)<br>
-    <span class="k">Career stage:</span> Early-career and senior researchers<br>
-    <span class="k">Typical duration:</span> Short- to medium-term</p>
-    <p class="kv"><span class="k">Focus:</span> Validation and adaptation of methods under operational and regulatory constraints.</p>
+    <h4>Applied research environment</h4>
+    <p class="kv">
+      <span class="k">From → To:</span> Academic institutions ↔ Applied research organisations<br>
+      <span class="k">Career stage:</span> Early-career and senior researchers<br>
+      <span class="k">Typical duration:</span> Short- to medium-term
+    </p>
+    <p class="kv">
+      <span class="k">Focus:</span> Method validation and adaptation under operational, regulatory and applied research conditions.
+    </p>
     <ul>
       <li>method validation and optimisation</li>
-      <li>bidirectional knowledge transfer</li>
-      <li>translation into implementable tools</li>
+      <li>bidirectional knowledge transfer between research and application</li>
+      <li>translation of methodologies into deployable tools</li>
     </ul>
   </div>
 
   <div class="example-card">
     <h4>Intersectoral technology transfer</h4>
-    <p class="kv"><span class="k">From → To:</span> UNIPR / industrial partner → applied research organisation (TH)<br>
-    <span class="k">Career stage:</span> Early-career (industrial doctorate)<br>
-    <span class="k">Typical duration:</span> Medium-term</p>
-    <p class="kv"><span class="k">Focus:</span> Food processing knowledge transferred across academic, applied and industrial environments.</p>
+    <p class="kv">
+      <span class="k">From → To:</span> Academic institution ↔ Industrial or applied research context<br>
+      <span class="k">Career stage:</span> Early-career researchers<br>
+      <span class="k">Typical duration:</span> Medium-term
+    </p>
+    <p class="kv">
+      <span class="k">Focus:</span> Intersectoral knowledge transfer across academic, applied research and industrial environments.
+    </p>
     <ul>
-      <li>integration of processing into applied workflows</li>
-      <li>alignment with industrial constraints</li>
-      <li>consolidation of technology transfer pathways</li>
+      <li>integration of process knowledge into applied workflows</li>
+      <li>alignment with industrial constraints and requirements</li>
+      <li>consolidation of sustainable technology transfer pathways</li>
     </ul>
   </div>
+
+</div>
 
 </div>
 
