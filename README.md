@@ -1,4 +1,3 @@
-# Minimal Mistakes remote theme starter
 # MYCOBEANS website (GitHub Pages)
 
 This repository hosts the public website for **MYCOBEANS** (Marie Skłodowska-Curie Actions — Staff Exchange).
@@ -48,7 +47,7 @@ If structural updates become necessary, create a dedicated commit explicitly sta
 ## Canonical repository for public outputs
 Public dissemination materials (videos, posters, slides, datasets) are archived in the **MYCOBEANS Zenodo community** and linked from the website.
 
+Current freeze status: see status.md
+
 ## Contact
 Project mailbox: **info@mycobeans.eu**
-
-Current freeze status: see status.md
