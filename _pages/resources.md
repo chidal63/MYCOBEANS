@@ -7,15 +7,13 @@ sidebar: false
 toc: false
 ---
 
-# Resources
 
 This page provides access to public outputs and selected resources produced within the MYCOBEANS project.  
 All public project resources are archived in the **MYCOBEANS Zenodo community**, which serves as the canonical repository for dissemination materials.
 
 [Browse the MYCOBEANS Zenodo community →](https://zenodo.org/communities/mycobeans/records)
 
-Posters and conference presentations will be archived on Zenodo as soon as public versions are available.  
-Selected protocols, workflows, or supporting documents will be listed here when suitable for public release.
+Posters and conference presentations will be archived on Zenodo as soon as public versions are available. Selected protocols, workflows, or supporting documents will be listed here when suitable for public release.
 
 For general information, please use the contact details provided on the **Contact** page.
 
@@ -24,9 +22,7 @@ For general information, please use the contact details provided on the **Contac
 ### Featured resource
 
 **Secondments in MYCOBEANS — experiences and knowledge transfer**  
-A short video documenting representative secondment experiences within the MYCOBEANS project.
-
-Watch on Zenodo:  
+A short video documenting representative secondment experiences within the MYCOBEANS project. Watch on Zenodo:  
 [10.5281/zenodo.18060699](https://doi.org/10.5281/zenodo.18060699) · archived in the MYCOBEANS Zenodo community
 
 ---
@@ -68,5 +64,5 @@ Invited and contributed oral communications at international conferences related
 
 ### About this page
 
-This page provides a curated overview of public outputs relevant to the scientific scope of MYCOBEANS.  
+This page provides a curated overview of public outputs relevant to the scientific scope of the MSCA-SE project MYCOBEANS.  
 Only materials that are publicly accessible and considered mature for dissemination are included. Preliminary results, draft materials and non-public documents are intentionally excluded.
